@@ -1,0 +1,216 @@
+{
+  "Tactics": [
+    {
+      "Tactic": "Adversarial_training",
+      "Type": "Tactic",
+      "Definition": "The Adversarial Training tactic is characterized by incorporating adversarially perturbed inputs into the training process. This is typically realized as a min-max optimization loop, where the inner loop (maximization) generates adversarial examples by maximizing the model’s prediction error under input perturbations, and the outer loop (minimization) updates the model to minimize the loss on these challenging inputs. Adversarial examples can be generated using different methods to augment the data in training. ",
+      "DefinitionReferences": "Paper Reference-IDs: 79, 83,\t88 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "Integer-only_operations",
+      "Type": "Tactic",
+      "Definition": "The Integer-only Operations tactic is characterized by the enforcement of integer arithmetic throughout model inference, achieved through a multi-stage quantization and optimization process. As this tactic builds on the Quantization tactic, these characteristics also apply. Additional optimization steps replace floating-point operations with integer equivalents, often including custom layers such as Integer Channel-Normalization or scaled integer activation functions. The final inference graph is composed exclusively of integer-compatible operations applying to both weights and activations, with floating-point arithmetic removed.",
+      "DefinitionReferences": "Paper Reference-IDs: 42, 43, 60 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "Task-level_parallelism_on_CNN_layer-level",
+      "Type": "Tactic",
+      "Definition": "The Task-level Parallelism on CNN Layer-Level tactic is characterized by the distribution of convolutional neural network (CNN) layers into distinct execution stages that operate concurrently, often referred to as pipeline parallelism. The presence of a fixed mapping between specific CNN layers and execution units such as threads, CPU cores, or heterogeneous processing elements reflects this. Each layer functions as an independent computational stage, frequently implemented with its own control logic or state machine, and communicates with adjacent stages via synchronized queues or streaming interfaces. Layers process different images or input frames in parallel, enabling temporal overlap in execution. The tactic emphasizes workload balancing and inter-stage communication, often implemented via explicit inter-thread or inter-process synchronization mechanisms. Usually, a shared state across layers is avoided, a sequential data flow through queues or buffers is enforced, and a fixed subset of layers has a distinct compute context.",
+      "DefinitionReferences": "Paper Reference-IDs: 120, 126, 232, 249 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "Quantization",
+      "Type": "Tactic",
+      "Definition": "The Quantization tactic is characterized by a transformation that reduces the numeric precision of model parameters and activations, typically from 32-bit floating point to lower-precision formats such as 8-bit integers or 16-bit floats. In the case of post-training quantization, this conversion occurs after the model is fully trained, where transformation functions are applied to weights and activations during export or serialization. Quantization-aware training embeds quantization operations into the training loop, often using \"fake quantization\" nodes or custom layers that simulate low-precision arithmetic while still allowing gradient-based optimization. Quantization requires the model to have a configuration schema. ",
+      "DefinitionReferences": "Paper Reference-IDs: 5, 8, 9 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "External_computational_offloading",
+      "Type": "Tactic",
+      "Definition": "The External computational offloading tactic is characterized by transferring computation-intensive tasks to external compute resources such as a local device, edge server, or cloud. This can include the separation of a neural network across computational resources or implemented logic for decision-making of which tasks to transfer, e.g., based on a current resource usage threshold or task deadlines.",
+      "DefinitionReferences": "Paper Reference-IDs: 109, 117, 160 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "Pruning",
+      "Type": "Tactic",
+      "Definition": "The Pruning tactic is characterized by permanently removing neural network weights or connections that are considered irrelevant, normally determined by a predefined threshold. It is applied post-training and may be conducted iteratively, including retraining of the network. This allows for reducing model complexity and helps mitigate overfitting by simplifying the network’s structure.",
+      "DefinitionReferences": "Paper Reference-IDs: 5, 37, 46 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "Heuristics-driven_augmentation",
+      "Type": "Tactic",
+      "Definition": "The heuristics-driven augmentation tactic is characterized by the generation and use of synthetic training samples through linear interpolation of pairs of inputs and their corresponding labels. This process creates blended samples, often called Mixup, which are intermediate representations between classes that serve as strong regularizer by enabling models to learn smoother decision boundaries.",
+      "DefinitionReferences": "Paper Reference-IDs: 162, 189, 237 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "Closed-loop_learning",
+      "Type": "Tactic",
+      "Definition": "The closed-loop learning tactic is characterized by integrating collected data from the models' deployment environment into the learning process by deploying the model to this environment. It typically involves a student whose outputs are compared to an expert, where mismatches are used for retraining. This retraining can be done incrementally online or batch-based offline.",
+      "DefinitionReferences": "Paper Reference-IDs: 3, 39, 58 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "Tensor_or_matrix_decomposition",
+      "Type": "Tactic",
+      "Definition": "The tensor or matrix decomposition tactic is characterized by reducing high-dimensional tensors or matrices through approximation into a sum of lower-rank structures that preserve essential structural relationships while removing redundancy. Applied to convolutions in neural networks, this allows for replacing a single complex operation with a sequence of simpler ones.",
+      "DefinitionReferences": "Paper Reference-IDs: 196, 200, 211 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "Sensor_or_input_data_fusion",
+      "Type": "Tactic",
+      "Definition": "The sensor or input data fusion tactic is characterized by the combination of multiple sensor data sources into a unified representation. The integration can be done at different levels, either merging raw data, features or decisions. Implementations often include logic to align, synchronize, or correlate sensor readings that allows for the identification of inconsistencies across sources. At its core, the tactic integrates heterogeneous inputs into a single fused output.",
+      "DefinitionReferences": "Paper Reference-IDs: 125, 126, 184 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "TPU_SoC_or_Accelerator_Hardware_",
+      "Type": "Tactic",
+      "Definition": "The TPU SoC or accelerator hardware tactic is characterized by the usage of specialized hardware such as TPUs, accelerator SoCs, or similar units, which are designed for tensor computation at the edge. This involves explicit invocation of hardware-accelerated compute kernels or device-specific APIs alongside leveraging on-chip memory to achieve high computational throughput.",
+      "DefinitionReferences": "Paper Reference-IDs: 125, 146, 220 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "Training_with_adversarial_noise",
+      "Type": "Tactic",
+      "Definition": "The tactic training with adversarial noise is characterized by the introduction of small, structured, or stochastic perturbations in the training input of a model. This enables the model to be less sensitive to input variations, since the noise acts as perturbation-based regularization, allowing to improve learning of decision boundaries. The tactic does not require the generation of adversarial examples or architectural modifications.",
+      "DefinitionReferences": "Paper Reference-IDs: 132, 162, 165 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "Multitask_Scheduling",
+      "Type": "Tactic"
+    },
+    {
+      "Tactic": "Multi-model_of_different_models",
+      "Type": "Tactic",
+      "Definition": "The multi-model of different models tactic is characterized by executing multiple heterogeneous machine-learning models on the same device. The operation of these models can be done in parallel on a collaborative goal or might include mechanisms for scheduling. Also, models do not need to be in active operation all the time and might be loaded from memory. Depending operation mode, the output of different models might be fused in real-time for decision-making. ",
+      "DefinitionReferences": "Paper Reference-IDs: 12, 58, 111 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "Containerization",
+      "Type": "Tactic",
+      "Definition": "The Containerization tactic is characterized by the encapsulation of models and their runtime dependencies into isolated, portable execution environments. This requires the specification of container configuration files that specify the model's environment, dependencies, and entry points. As a container runs as an independent unit, it enables the concurrent execution of multiple models and abstraction from hardware or the operating system. Normally, a model inside a container exposes an interface that allows the model to be used as a service.",
+      "DefinitionReferences": "Paper Reference-IDs: 12, 128, 291 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "Partial_layer_execution",
+      "Type": "Tactic",
+      "Definition": "The partial layer execution tactic is characterized by partitioning a deep neural network into subsets of layers, where only a part of the model is executed on a given device or within a given timeframe. This produces encoded features, which might be stored on-device or offloaded for later processing.",
+      "DefinitionReferences": "Paper Reference-IDs: 121, 203 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "Deadline-aware_scheduling",
+      "Type": "Tactic",
+      "Definition": "The deadline-aware scheduling tactic is characterized by prioritizing and scheduling tasks based on a strict deadline, in a way they meet that deadline. Typically, this involves the dynamic adjustment of priorities during execution to handle varying workloads, sensing rates, and available resources. Possible implementations can operate at different granularities from the full task level down to the GPU kernel level. ",
+      "DefinitionReferences": "Paper Reference-IDs: 121, 293 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "Modular_system_design",
+      "Type": "Tactic",
+      "Definition": "The Modular System Design tactic is characterized by the separation of the system into independently developed and replaceable components. Each component encapsulates a specific functionality, requiring well-defined interfaces to abstract the components’ functionalities to their surroundings. Modular systems often leverage containerization or component registration mechanisms to load and execute AI models independently. ",
+      "DefinitionReferences": "Paper Reference-IDs: 128, 166 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "Concurrent_processing_hardware",
+      "Type": "Tactic",
+      "Definition": "The tactic concurrent processing hardware is characterized by the use of hardware which is capable of executing multiple computations in parallel across separate processing units or cores. This enables software to use parallelized operations or distribute specific tasks to the available hardware units.",
+      "DefinitionReferences": "Paper Reference-IDs: 177, 199, 241 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "Early-exit_inference",
+      "Type": "Tactic",
+      "Definition": "The tactic early-exit inference is characterized by including multiple intermediate exit points into a neural network, thereby shaping its architecture. This allows the creation of predictions before reaching the final layer through use of branch classifiers or auxiliary heads attached to intermediate layers. During execution, the system decides on a requirements-basis whether to stop early or continue processing. Early-exit points need to be integrated into the network during the training phase.",
+      "DefinitionReferences": "Paper Reference-IDs: 109, 213, 257 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "Edge_compute_hardware",
+      "Type": "Tactic",
+      "Definition": "The edge compute hardware tactic is characterized by the use of hardware that performs computation directly on or near the data source, reducing dependence on and transmission to cloud infrastructure. This is normally reflected by execution inference locally rather than invoking remote services. ",
+      "DefinitionReferences": "Paper Reference-IDs: 184, 242, 248 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "Pretraining",
+      "Type": "Tactic",
+      "Definition": "The tactic pretraining is characterized by conducting model training on a large, typically unlabeled datasets to learn feature representations for general-purpose. This is applied before finetuning the model to task-specific objectives. Thus, it can include mechanisms for transfer learning.",
+      "DefinitionReferences": "Paper Reference-IDs: 159, 190, 191 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "Sparsification",
+      "Type": "Tactic",
+      "Definition": "The tactic sparsification is characterized by systematically removing unimportant weights in a neural network to increase the number of zero-valued parameters. It reduces the number of network parameters through selective elimination of connections across multiple layers. Typically, this involves the application of tactics like pruning or regularization, aiming to compress the model size.",
+      "DefinitionReferences": "Paper Reference-IDs: 152, 154, 204 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "Feature_encoding",
+      "Type": "Tactic",
+      "Definition": "The Feature encoding tactic is characterized by transforming raw or high-dimensional input data into a compact intermediate representation, used for further processing, that preserves the essential characteristics needed for this processing task, e.g., inference. Based on processing through convolutional layers, it captures meaningful patterns, whereby the encoding can be done lossless or lossy.",
+      "DefinitionReferences": "Paper Reference-IDs: 121, 196, 203 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "Binary_weights_and_activations",
+      "Type": "Tactic",
+      "Definition": "The tactic binary weights and activations is characterized by restricting the weights and intermediate activations of a neural network to discrete values −1 and +1. This requires explicit quantization steps that replace floating-point tensors with binary tensors. During execution, multiplication operations are typically substituted with XNOR and population-count bitwise operations.",
+      "DefinitionReferences": "Paper Reference-IDs: 149, 155, 161 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "Depth_adjustment",
+      "Type": "Tactic",
+      "Definition": "The tactic depth adjustment is characterized by modifying a neural network’s capacity through a change in number of layers or blocks in its architecture. Typically, this is based on altering hyperparameters or configuration settings that define block counts, repeated layer structures, or stage depths. Up to a certain threshold this can yield better results, where a further increase can lead to more sensitivity and decrease in better decision-making. Altering the hierarchical structure of a model, this mechanism allows scaling of architectures.",
+      "DefinitionReferences": "Paper Reference-IDs: 7, 193 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "Out-of-distribution_detection",
+      "Type": "Tactic"
+    },
+    {
+      "Tactic": "Input_resolution_adjustment",
+      "Type": "Tactic",
+      "Definition": "The tactic input resolution adjustment is characterized by modifying the size of input data of a model prior to inference. In the process, sensor input is adjusted to a target resolution required by the model, normally applied to image data. ",
+      "DefinitionReferences": "Paper Reference-IDs: 80, 94 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "Ternary_weights_and_activations_2-bit",
+      "Type": "Tactic"
+    },
+    {
+      "Tactic": "Mixed-precision_compression",
+      "Type": "Tactic"
+    },
+    {
+      "Tactic": "New_or_specific_layer_module",
+      "Type": "Tactic"
+    },
+    {
+      "Tactic": "Transfer_learning",
+      "Type": "Tactic",
+      "Definition": "The tactic transfer learning is characterized by reusing a pretrained model and its learned representations from a source domain in new, related target domain. The process typically involves adaptation to the new domain through leveraging tactics such as finetuning or retraining. By reusing prior learned knowledge, this reduces the need for large labeled datasets in the target domain.",
+      "DefinitionReferences": "Paper Reference-IDs: 14, 117, 118 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "Hardware_and_Software_codesign",
+      "Type": "Tactic",
+      "Definition": "The tactic is characterized by adapting the software development and architecture to the constraints and capabilities a target hardware platform offers. This creates a vertically integrated system where software exploits hardware features, often realized via custom model configurations or specific hardware-aware adjustments.",
+      "DefinitionReferences": "Paper Reference-IDs: 39, 71, 72 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "Denoising",
+      "Type": "Tactic"
+    },
+    {
+      "Tactic": "Input_modification",
+      "Type": "Tactic",
+      "Definition": "The Input Modification tactic is characterized by altering the model input space through preprocessing operations. In the process, input data is transformed. The model’s sensitivity to specific aspects of the input space is modified or constrained through preprocessing or custom loss functions.",
+      "DefinitionReferences": "Paper Reference-IDs: 239, 274 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    },
+    {
+      "Tactic": "Robust_feature_extraction",
+      "Type": "Tactic"
+    },
+    {
+      "Tactic": "Training_with_unlabed_data",
+      "Type": "Tactic"
+    },
+    {
+      "Tactic": "Test_time_adaption",
+      "Type": "Tactic",
+      "Definition": "The tactic test time adaption is characterized by modifying or fine-tuning model parameters during inference based on the incoming test samples. Based on entropy-minimization or confidence-based objectives, the model is adjusted in an online learning setting without necessitating background knowledge on the model’s architecture. It may be integrated with tactics such as adapter modules.",
+      "DefinitionReferences": "Paper Reference-IDs: 15, 138 (for DOI, check https://github.com/PhilippStraub/QualiTact)"
+    }
+  ]
+}
