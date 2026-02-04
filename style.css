@@ -1,0 +1,306 @@
+.filters {
+  background-color: #f5f5ff;  
+  border-radius: 15px;        
+  margin: 20px;               
+  padding: 15px;              
+  border: 1px solid #e0e0e0; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+}
+
+.display-6{
+    text-align: center;
+    margin-top: 20px;    
+    margin-bottom: 10px; 
+}
+
+
+.col-sm-2 button {
+    margin-top: 20px;   
+}
+
+#stats{
+         margin: 20px;               
+  padding: 5px;      
+}
+
+.filters input{
+    display: inline-block;
+}
+
+
+.filters button{
+    display: inline-block;
+
+}
+
+
+#kanten .btn-sm{
+    margin-bottom: 5px;
+}
+
+.filters label{
+    margin-bottom: 15px;
+}
+
+#checkboxContainer label{
+    margin-bottom: 10px;
+}
+
+#tacticCheckboxContainer label{
+    margin-bottom: 10px;
+}
+
+.col-sm-2{
+    background-color: white;
+}
+
+.col{
+    background-color: white;
+}
+
+
+#checkboxContainer{
+    max-height: 450px;
+
+}
+
+#tacticCheckboxContainer{
+        max-height: 450px;
+}
+
+.filters p{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#filterbar{
+    max-height: 1950px;
+    display: block;
+}
+
+
+.jstree-default .jstree-themeicon.bi {
+  background: none !important;
+
+  transform: rotate(90deg); 
+}
+
+.input-group {
+  display: flex;
+  flex-wrap: nowrap; 
+  align-items: center; 
+}
+
+.input-group-text {
+  white-space: nowrap; 
+}
+.slider{
+    width: 15rem;
+    /* margin-right: 20px; */
+}
+
+#correlationInput {
+    margin-left: 20px;
+}
+
+#certaintyInput{
+    width: 75px;
+}
+
+#correlationInput{
+    width: 75px;
+}
+
+#correlationTacticsInput{
+    width: 75px;
+}
+
+.filters .overflow-auto{
+    max-height: 230px;
+    width: 100%;
+}
+
+#tree-QA{
+    max-height: 170px;
+}
+
+.correlationsvalue{
+    font-weight: normal;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+
+
+.form-control{
+    padding: .200rem .75rem;
+    min-width:80px;
+    max-width: 150px;
+}
+
+.tree_stats{
+    float: right;
+    text-align: right;
+}
+
+#filtersCollapseHead{
+    font-style: bold;
+}
+.addfilters{
+    font-size: 14px;
+}
+
+.otherFilters{
+    font-weight: normal;
+
+    margin-top: 10px;
+}
+
+.filters .addfilters label{
+    margin-bottom: 5px;
+}
+
+#legend{
+    color: #aaa;
+    font-size: 14px; 
+}
+
+#legend i{
+    margin-right: 5px;
+}
+#hexagonLegend {
+  display: inline-block; /* wichtig, sonst wirkt transform nicht */
+  transform: rotate(90deg);
+}
+
+.form-check-label{
+    font-weight: normal;
+}
+
+.posNeg{
+    margin-top: 5pt;
+}
+
+.ps-2{
+    padding-left: 1rem !important;
+}
+
+#network { 
+  height: 800px; 
+  border: 0px solid #ccc; 
+  margin-top: 0px; 
+}
+
+label { 
+  font-weight: bold; 
+}
+
+.filters { 
+  margin-bottom: 10px; 
+}
+.filters div { 
+  display: inline-block 
+}
+.filters button { 
+  margin-left: 0px; 
+}
+
+#loadingOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.95);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  flex-direction: column;
+}
+#loadingOverlay.show {
+  display: flex;
+}
+.loading-content {
+  text-align: center;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #0d6efd;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 20px;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.progress-container {
+  width: 300px;
+  margin: 15px auto 10px;
+}
+.progress {
+  height: 25px;
+}
+.loading-text {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.loading-details {
+  font-size: 12px;
+  color: #666;
+  margin-top: 10px;
+}
+
+#includeTacticRelations:checked {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+#includeTacticRelations:focus {
+  border-color: #6c757d;
+  box-shadow: 0 0 0 0.25rem rgba(108, 117, 125, 0.25);
+}
+
+
+@media (min-width: 576px) {
+  body, html {
+    overflow: hidden;
+  }
+  
+  #filterbar {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    direction: rtl;
+    scrollbar-width: thin;
+  }
+  
+  #filterbar > * {
+    direction: ltr;
+  }
+  
+  #filterbar::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  
+  #filterbar::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+  }
+  
+  .filters {
+    scrollbar-width: thin;
+  }
+
+  .filters::-webkit-scrollbar {
+    width: 12px;
+  }
+
+}
