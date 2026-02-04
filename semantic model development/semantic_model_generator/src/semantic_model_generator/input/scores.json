@@ -1,0 +1,6394 @@
+{
+  "Scores": [
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Adversarial training",
+      "Tactic_Sum": 28,
+      "Score": 0.5259,
+      "Score_minus_conf": 0.5555,
+      "Confidence": 0.9466
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Meta-learning",
+      "Tactic_Sum": 10,
+      "Score": 0.4572,
+      "Score_minus_conf": 0.7381,
+      "Confidence": 0.6194
+    },
+    {
+      "QualityAttribute": "Performance Efficiency",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Integer-only operations",
+      "Tactic_Sum": 11,
+      "Score": 0.3331,
+      "Score_minus_conf": 0.5791,
+      "Confidence": 0.5753
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Task-level parallelism on CNN layer-level",
+      "Tactic_Sum": 9,
+      "Score": 0.3215,
+      "Score_minus_conf": 0.5283,
+      "Confidence": 0.6086
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Quantization",
+      "Tactic_Sum": 40,
+      "Score": 0.306,
+      "Score_minus_conf": 0.3091,
+      "Confidence": 0.9897
+    },
+    {
+      "QualityAttribute": "Interoperability",
+      "QualityAttribute_Sum": 6,
+      "Tactic": "External computational offloading",
+      "Tactic_Sum": 11,
+      "Score": 0.2972,
+      "Score_minus_conf": 0.7107,
+      "Confidence": 0.4182
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Pruning",
+      "Tactic_Sum": 23,
+      "Score": 0.2924,
+      "Score_minus_conf": 0.3017,
+      "Confidence": 0.969
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "Edge compute hardware",
+      "Tactic_Sum": 4,
+      "Score": 0.2813,
+      "Score_minus_conf": 0.7161,
+      "Confidence": 0.3928
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Fault tolerant training",
+      "Tactic_Sum": 4,
+      "Score": 0.2733,
+      "Score_minus_conf": 0.7647,
+      "Confidence": 0.3574
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Heuristics-driven augmentation",
+      "Tactic_Sum": 5,
+      "Score": 0.2281,
+      "Score_minus_conf": 0.3212,
+      "Confidence": 0.7101
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Closed-loop learning",
+      "Tactic_Sum": 6,
+      "Score": 0.2149,
+      "Score_minus_conf": 0.2761,
+      "Confidence": 0.7781
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Tensor or matrix decomposition",
+      "Tactic_Sum": 6,
+      "Score": 0.2149,
+      "Score_minus_conf": 0.2761,
+      "Confidence": 0.7781
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Few-shot learning",
+      "Tactic_Sum": 4,
+      "Score": 0.2119,
+      "Score_minus_conf": 0.4635,
+      "Confidence": 0.4572
+    },
+    {
+      "QualityAttribute": "Performance Efficiency",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Closed-loop learning",
+      "Tactic_Sum": 6,
+      "Score": 0.1963,
+      "Score_minus_conf": 0.4188,
+      "Confidence": 0.4687
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Quantization",
+      "Tactic_Sum": 40,
+      "Score": 0.1772,
+      "Score_minus_conf": 0.1791,
+      "Confidence": 0.9893
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Sensor or input data fusion",
+      "Tactic_Sum": 5,
+      "Score": 0.1748,
+      "Score_minus_conf": 0.3474,
+      "Confidence": 0.503
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Sensor or input data fusion",
+      "Tactic_Sum": 5,
+      "Score": 0.1656,
+      "Score_minus_conf": 0.2217,
+      "Confidence": 0.747
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "TPU SoC or Accelerator Hardware ",
+      "Tactic_Sum": 5,
+      "Score": 0.1656,
+      "Score_minus_conf": 0.2217,
+      "Confidence": 0.747
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Training with adversarial noise",
+      "Tactic_Sum": 4,
+      "Score": 0.165,
+      "Score_minus_conf": 0.2464,
+      "Confidence": 0.6696
+    },
+    {
+      "QualityAttribute": "Resiliency",
+      "QualityAttribute_Sum": 8,
+      "Tactic": "Tuner and meta-tuner blocks",
+      "Tactic_Sum": 2,
+      "Score": 0.164,
+      "Score_minus_conf": 0.7008,
+      "Confidence": 0.2341
+    },
+    {
+      "QualityAttribute": "Scalability",
+      "QualityAttribute_Sum": 3,
+      "Tactic": "Sensor or input data fusion",
+      "Tactic_Sum": 5,
+      "Score": 0.1631,
+      "Score_minus_conf": 0.7168,
+      "Confidence": 0.2276
+    },
+    {
+      "QualityAttribute": "Portability",
+      "QualityAttribute_Sum": 5,
+      "Tactic": "Containerization",
+      "Tactic_Sum": 3,
+      "Score": 0.1611,
+      "Score_minus_conf": 0.7081,
+      "Confidence": 0.2276
+    },
+    {
+      "QualityAttribute": "Scalability",
+      "QualityAttribute_Sum": 3,
+      "Tactic": "Edge compute hardware",
+      "Tactic_Sum": 4,
+      "Score": 0.16,
+      "Score_minus_conf": 0.776,
+      "Confidence": 0.2062
+    },
+    {
+      "QualityAttribute": "Interoperability",
+      "QualityAttribute_Sum": 6,
+      "Tactic": "Multitask Scheduling",
+      "Tactic_Sum": 3,
+      "Score": 0.1572,
+      "Score_minus_conf": 0.6383,
+      "Confidence": 0.2464
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "External computational offloading",
+      "Tactic_Sum": 11,
+      "Score": 0.1561,
+      "Score_minus_conf": 0.2418,
+      "Confidence": 0.6455
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Closed-loop learning",
+      "Tactic_Sum": 6,
+      "Score": 0.1553,
+      "Score_minus_conf": 0.2949,
+      "Confidence": 0.5268
+    },
+    {
+      "QualityAttribute": "Flexibility",
+      "QualityAttribute_Sum": 7,
+      "Tactic": "Containerization",
+      "Tactic_Sum": 3,
+      "Score": 0.1535,
+      "Score_minus_conf": 0.5831,
+      "Confidence": 0.2632
+    },
+    {
+      "QualityAttribute": "Scalability",
+      "QualityAttribute_Sum": 3,
+      "Tactic": "Network partitioning",
+      "Tactic_Sum": 9,
+      "Score": 0.1521,
+      "Score_minus_conf": 0.5196,
+      "Confidence": 0.2928
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "Training with gradient noise",
+      "Tactic_Sum": 2,
+      "Score": 0.1507,
+      "Score_minus_conf": 0.5069,
+      "Confidence": 0.2973
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "Federated learning",
+      "Tactic_Sum": 2,
+      "Score": 0.1507,
+      "Score_minus_conf": 0.5069,
+      "Confidence": 0.2973
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Multi-model of different models",
+      "Tactic_Sum": 6,
+      "Score": 0.1494,
+      "Score_minus_conf": 0.2793,
+      "Confidence": 0.5351
+    },
+    {
+      "QualityAttribute": "Modifiability ",
+      "QualityAttribute_Sum": 3,
+      "Tactic": "Containerization",
+      "Tactic_Sum": 3,
+      "Score": 0.1494,
+      "Score_minus_conf": 0.824,
+      "Confidence": 0.1813
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Failure prevention or mitigation",
+      "Tactic_Sum": 3,
+      "Score": 0.1393,
+      "Score_minus_conf": 0.4379,
+      "Confidence": 0.3182
+    },
+    {
+      "QualityAttribute": "Resiliency",
+      "QualityAttribute_Sum": 8,
+      "Tactic": "Fault tolerant training",
+      "Tactic_Sum": 4,
+      "Score": 0.1392,
+      "Score_minus_conf": 0.443,
+      "Confidence": 0.3142
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Test time adaption",
+      "Tactic_Sum": 2,
+      "Score": 0.1356,
+      "Score_minus_conf": 0.3864,
+      "Confidence": 0.3508
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Incremental training with sensor data",
+      "Tactic_Sum": 2,
+      "Score": 0.1356,
+      "Score_minus_conf": 0.3864,
+      "Confidence": 0.3508
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Adapter module",
+      "Tactic_Sum": 2,
+      "Score": 0.1356,
+      "Score_minus_conf": 0.3864,
+      "Confidence": 0.3508
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Partial layer execution",
+      "Tactic_Sum": 2,
+      "Score": 0.1335,
+      "Score_minus_conf": 0.3735,
+      "Confidence": 0.3574
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Deadline-aware scheduling",
+      "Tactic_Sum": 2,
+      "Score": 0.1335,
+      "Score_minus_conf": 0.3735,
+      "Confidence": 0.3574
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Modular system design",
+      "Tactic_Sum": 2,
+      "Score": 0.1335,
+      "Score_minus_conf": 0.3735,
+      "Confidence": 0.3574
+    },
+    {
+      "QualityAttribute": "Interoperability",
+      "QualityAttribute_Sum": 6,
+      "Tactic": "Concurrent processing hardware",
+      "Tactic_Sum": 7,
+      "Score": 0.129,
+      "Score_minus_conf": 0.3678,
+      "Confidence": 0.3508
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "External computational offloading",
+      "Tactic_Sum": 11,
+      "Score": 0.129,
+      "Score_minus_conf": 0.2292,
+      "Confidence": 0.5628
+    },
+    {
+      "QualityAttribute": "Safety",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Specific model type selection",
+      "Tactic_Sum": 4,
+      "Score": 0.1257,
+      "Score_minus_conf": 0.3517,
+      "Confidence": 0.3574
+    },
+    {
+      "QualityAttribute": "Performance Efficiency",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Quantization",
+      "Tactic_Sum": 40,
+      "Score": 0.1237,
+      "Score_minus_conf": 0.1537,
+      "Confidence": 0.8047
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Early-exit inference",
+      "Tactic_Sum": 4,
+      "Score": 0.1204,
+      "Score_minus_conf": 0.1701,
+      "Confidence": 0.7075
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Edge compute hardware",
+      "Tactic_Sum": 4,
+      "Score": 0.1204,
+      "Score_minus_conf": 0.1701,
+      "Confidence": 0.7075
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Integer-only operations",
+      "Tactic_Sum": 11,
+      "Score": 0.11,
+      "Score_minus_conf": 0.1265,
+      "Confidence": 0.8698
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "External computational offloading",
+      "Tactic_Sum": 11,
+      "Score": 0.11,
+      "Score_minus_conf": 0.1265,
+      "Confidence": 0.8698
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Pretraining",
+      "Tactic_Sum": 3,
+      "Score": 0.1087,
+      "Score_minus_conf": 0.1762,
+      "Confidence": 0.6168
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Deployment pipeline creation",
+      "Tactic_Sum": 3,
+      "Score": 0.1086,
+      "Score_minus_conf": 0.2643,
+      "Confidence": 0.4109
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "On-device local training",
+      "Tactic_Sum": 3,
+      "Score": 0.1086,
+      "Score_minus_conf": 0.2643,
+      "Confidence": 0.4109
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Sparsification",
+      "Tactic_Sum": 10,
+      "Score": 0.1075,
+      "Score_minus_conf": 0.1199,
+      "Confidence": 0.8967
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Feature encoding",
+      "Tactic_Sum": 3,
+      "Score": 0.1059,
+      "Score_minus_conf": 0.2532,
+      "Confidence": 0.4182
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "Sensor or input data fusion",
+      "Tactic_Sum": 5,
+      "Score": 0.1001,
+      "Score_minus_conf": 0.2341,
+      "Confidence": 0.4275
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Multi-model of different models",
+      "Tactic_Sum": 6,
+      "Score": 0.0993,
+      "Score_minus_conf": 0.1277,
+      "Confidence": 0.7781
+    },
+    {
+      "QualityAttribute": "Flexibility",
+      "QualityAttribute_Sum": 7,
+      "Tactic": "Destillation learning",
+      "Tactic_Sum": 11,
+      "Score": 0.097,
+      "Score_minus_conf": 0.219,
+      "Confidence": 0.4429
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Tensor or matrix decomposition",
+      "Tactic_Sum": 6,
+      "Score": 0.0948,
+      "Score_minus_conf": 0.1142,
+      "Confidence": 0.8303
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Closed-loop learning",
+      "Tactic_Sum": 6,
+      "Score": 0.0948,
+      "Score_minus_conf": 0.1142,
+      "Confidence": 0.8303
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Binary weights and activations",
+      "Tactic_Sum": 6,
+      "Score": 0.0948,
+      "Score_minus_conf": 0.1142,
+      "Confidence": 0.8303
+    },
+    {
+      "QualityAttribute": "Resiliency",
+      "QualityAttribute_Sum": 8,
+      "Tactic": "Meta-learning",
+      "Tactic_Sum": 10,
+      "Score": 0.0937,
+      "Score_minus_conf": 0.2085,
+      "Confidence": 0.4491
+    },
+    {
+      "QualityAttribute": "Resiliency",
+      "QualityAttribute_Sum": 8,
+      "Tactic": "Neural architecture search",
+      "Tactic_Sum": 10,
+      "Score": 0.0937,
+      "Score_minus_conf": 0.2085,
+      "Confidence": 0.4491
+    },
+    {
+      "QualityAttribute": "Resiliency",
+      "QualityAttribute_Sum": 8,
+      "Tactic": "Finetuning ",
+      "Tactic_Sum": 10,
+      "Score": 0.0937,
+      "Score_minus_conf": 0.2085,
+      "Confidence": 0.4491
+    },
+    {
+      "QualityAttribute": "Performance Efficiency",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Multi-model of different models",
+      "Tactic_Sum": 6,
+      "Score": 0.0839,
+      "Score_minus_conf": 0.179,
+      "Confidence": 0.4687
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Depth adjustment",
+      "Tactic_Sum": 12,
+      "Score": 0.0809,
+      "Score_minus_conf": 0.0949,
+      "Confidence": 0.8531
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Out-of-distribution detection",
+      "Tactic_Sum": 3,
+      "Score": 0.0797,
+      "Score_minus_conf": 0.1217,
+      "Confidence": 0.6551
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Input resolution adjustment",
+      "Tactic_Sum": 3,
+      "Score": 0.0797,
+      "Score_minus_conf": 0.1217,
+      "Confidence": 0.6551
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Transfer learning",
+      "Tactic_Sum": 5,
+      "Score": 0.0735,
+      "Score_minus_conf": 0.1486,
+      "Confidence": 0.495
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Sensor or input data fusion",
+      "Tactic_Sum": 5,
+      "Score": 0.0731,
+      "Score_minus_conf": 0.0915,
+      "Confidence": 0.7992
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Ternary weights and activations 2-bit",
+      "Tactic_Sum": 5,
+      "Score": 0.0731,
+      "Score_minus_conf": 0.0915,
+      "Confidence": 0.7992
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Neural architecture search",
+      "Tactic_Sum": 10,
+      "Score": 0.0714,
+      "Score_minus_conf": 0.1419,
+      "Confidence": 0.503
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Ternary weights and activations 2-bit",
+      "Tactic_Sum": 5,
+      "Score": 0.0709,
+      "Score_minus_conf": 0.0884,
+      "Confidence": 0.802
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Mixed-precision compression",
+      "Tactic_Sum": 5,
+      "Score": 0.0709,
+      "Score_minus_conf": 0.0884,
+      "Confidence": 0.802
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "New or specific layer module",
+      "Tactic_Sum": 5,
+      "Score": 0.0709,
+      "Score_minus_conf": 0.0884,
+      "Confidence": 0.802
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Transfer learning",
+      "Tactic_Sum": 5,
+      "Score": 0.0664,
+      "Score_minus_conf": 0.0888,
+      "Confidence": 0.747
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "New or specific layer module",
+      "Tactic_Sum": 5,
+      "Score": 0.0664,
+      "Score_minus_conf": 0.0888,
+      "Confidence": 0.747
+    },
+    {
+      "QualityAttribute": "Safety",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Integer-only operations",
+      "Tactic_Sum": 11,
+      "Score": 0.065,
+      "Score_minus_conf": 0.1251,
+      "Confidence": 0.5197
+    },
+    {
+      "QualityAttribute": "Training performance efficiency",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Training optimization algorithm selection or adaptation",
+      "Tactic_Sum": 11,
+      "Score": 0.065,
+      "Score_minus_conf": 0.1251,
+      "Confidence": 0.5197
+    },
+    {
+      "QualityAttribute": "Reliability",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Hardware and Software codesign",
+      "Tactic_Sum": 8,
+      "Score": 0.0645,
+      "Score_minus_conf": 0.1245,
+      "Confidence": 0.5182
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Hardware and Software codesign",
+      "Tactic_Sum": 8,
+      "Score": 0.0616,
+      "Score_minus_conf": 0.0708,
+      "Confidence": 0.871
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Denoising",
+      "Tactic_Sum": 2,
+      "Score": 0.0603,
+      "Score_minus_conf": 0.111,
+      "Confidence": 0.543
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Input modification",
+      "Tactic_Sum": 2,
+      "Score": 0.0603,
+      "Score_minus_conf": 0.111,
+      "Confidence": 0.543
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Robust feature extraction",
+      "Tactic_Sum": 2,
+      "Score": 0.0603,
+      "Score_minus_conf": 0.111,
+      "Confidence": 0.543
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Training with unlabed data",
+      "Tactic_Sum": 2,
+      "Score": 0.0603,
+      "Score_minus_conf": 0.111,
+      "Confidence": 0.543
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Test time adaption",
+      "Tactic_Sum": 2,
+      "Score": 0.0603,
+      "Score_minus_conf": 0.111,
+      "Confidence": 0.543
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Integer-only operations",
+      "Tactic_Sum": 11,
+      "Score": 0.0599,
+      "Score_minus_conf": 0.0659,
+      "Confidence": 0.9094
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Quantization",
+      "Tactic_Sum": 40,
+      "Score": 0.0585,
+      "Score_minus_conf": 0.0597,
+      "Confidence": 0.9795
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Closed-loop learning",
+      "Tactic_Sum": 6,
+      "Score": 0.0576,
+      "Score_minus_conf": 0.1077,
+      "Confidence": 0.5351
+    },
+    {
+      "QualityAttribute": "Modularity",
+      "QualityAttribute_Sum": 2,
+      "Tactic": "Containerization",
+      "Tactic_Sum": 3,
+      "Score": 0.0538,
+      "Score_minus_conf": 0.3573,
+      "Confidence": 0.1507
+    },
+    {
+      "QualityAttribute": "Usability",
+      "QualityAttribute_Sum": 2,
+      "Tactic": "Early-exit inference",
+      "Tactic_Sum": 4,
+      "Score": 0.0538,
+      "Score_minus_conf": 0.3132,
+      "Confidence": 0.1719
+    },
+    {
+      "QualityAttribute": "Scalability",
+      "QualityAttribute_Sum": 3,
+      "Tactic": "Partial layer execution",
+      "Tactic_Sum": 2,
+      "Score": 0.0535,
+      "Score_minus_conf": 0.355,
+      "Confidence": 0.1507
+    },
+    {
+      "QualityAttribute": "Modifiability ",
+      "QualityAttribute_Sum": 3,
+      "Tactic": "Modular system design",
+      "Tactic_Sum": 2,
+      "Score": 0.0535,
+      "Score_minus_conf": 0.355,
+      "Confidence": 0.1507
+    },
+    {
+      "QualityAttribute": "Scalability",
+      "QualityAttribute_Sum": 3,
+      "Tactic": "Deadline-aware scheduling",
+      "Tactic_Sum": 2,
+      "Score": 0.0535,
+      "Score_minus_conf": 0.355,
+      "Confidence": 0.1507
+    },
+    {
+      "QualityAttribute": "Scalability",
+      "QualityAttribute_Sum": 3,
+      "Tactic": "Additional side branches with uncertainty measures",
+      "Tactic_Sum": 2,
+      "Score": 0.0535,
+      "Score_minus_conf": 0.355,
+      "Confidence": 0.1507
+    },
+    {
+      "QualityAttribute": "Usability",
+      "QualityAttribute_Sum": 2,
+      "Tactic": "Frame rate reduction",
+      "Tactic_Sum": 2,
+      "Score": 0.0533,
+      "Score_minus_conf": 0.4272,
+      "Confidence": 0.1248
+    },
+    {
+      "QualityAttribute": "Interpretability",
+      "QualityAttribute_Sum": 2,
+      "Tactic": "Input modification",
+      "Tactic_Sum": 2,
+      "Score": 0.0533,
+      "Score_minus_conf": 0.4272,
+      "Confidence": 0.1248
+    },
+    {
+      "QualityAttribute": "Modularity",
+      "QualityAttribute_Sum": 2,
+      "Tactic": "Modular system design",
+      "Tactic_Sum": 2,
+      "Score": 0.0533,
+      "Score_minus_conf": 0.4272,
+      "Confidence": 0.1248
+    },
+    {
+      "QualityAttribute": "Usability",
+      "QualityAttribute_Sum": 2,
+      "Tactic": "Sensor duty cycle",
+      "Tactic_Sum": 2,
+      "Score": 0.0533,
+      "Score_minus_conf": 0.4272,
+      "Confidence": 0.1248
+    },
+    {
+      "QualityAttribute": "Portability",
+      "QualityAttribute_Sum": 5,
+      "Tactic": "Library Encapsulation",
+      "Tactic_Sum": 1,
+      "Score": 0.0532,
+      "Score_minus_conf": 0.3839,
+      "Confidence": 0.1385
+    },
+    {
+      "QualityAttribute": "Portability",
+      "QualityAttribute_Sum": 5,
+      "Tactic": "Matrix-multiplication optimization",
+      "Tactic_Sum": 1,
+      "Score": 0.0532,
+      "Score_minus_conf": 0.3839,
+      "Confidence": 0.1385
+    },
+    {
+      "QualityAttribute": "Portability",
+      "QualityAttribute_Sum": 5,
+      "Tactic": "Adaptive model scheduling",
+      "Tactic_Sum": 1,
+      "Score": 0.0532,
+      "Score_minus_conf": 0.3839,
+      "Confidence": 0.1385
+    },
+    {
+      "QualityAttribute": "Portability",
+      "QualityAttribute_Sum": 5,
+      "Tactic": "High-level synthesis",
+      "Tactic_Sum": 1,
+      "Score": 0.0532,
+      "Score_minus_conf": 0.3839,
+      "Confidence": 0.1385
+    },
+    {
+      "QualityAttribute": "Scalability",
+      "QualityAttribute_Sum": 3,
+      "Tactic": "Feature encoding",
+      "Tactic_Sum": 3,
+      "Score": 0.0532,
+      "Score_minus_conf": 0.2933,
+      "Confidence": 0.1813
+    },
+    {
+      "QualityAttribute": "Modifiability ",
+      "QualityAttribute_Sum": 3,
+      "Tactic": "Deployment pipeline creation",
+      "Tactic_Sum": 3,
+      "Score": 0.0532,
+      "Score_minus_conf": 0.2933,
+      "Confidence": 0.1813
+    },
+    {
+      "QualityAttribute": "Security",
+      "QualityAttribute_Sum": 6,
+      "Tactic": "Sensor ring architecture",
+      "Tactic_Sum": 1,
+      "Score": 0.0531,
+      "Score_minus_conf": 0.3528,
+      "Confidence": 0.1507
+    },
+    {
+      "QualityAttribute": "Security",
+      "QualityAttribute_Sum": 6,
+      "Tactic": "Suppress redundant channel activations",
+      "Tactic_Sum": 1,
+      "Score": 0.0531,
+      "Score_minus_conf": 0.3528,
+      "Confidence": 0.1507
+    },
+    {
+      "QualityAttribute": "Interoperability",
+      "QualityAttribute_Sum": 6,
+      "Tactic": "Light communication protocol usage",
+      "Tactic_Sum": 1,
+      "Score": 0.0531,
+      "Score_minus_conf": 0.3528,
+      "Confidence": 0.1507
+    },
+    {
+      "QualityAttribute": "Interoperability",
+      "QualityAttribute_Sum": 6,
+      "Tactic": "Relevant content caching",
+      "Tactic_Sum": 1,
+      "Score": 0.0531,
+      "Score_minus_conf": 0.3528,
+      "Confidence": 0.1507
+    },
+    {
+      "QualityAttribute": "Interoperability",
+      "QualityAttribute_Sum": 6,
+      "Tactic": "Coupled semantic descriptions",
+      "Tactic_Sum": 1,
+      "Score": 0.0531,
+      "Score_minus_conf": 0.3528,
+      "Confidence": 0.1507
+    },
+    {
+      "QualityAttribute": "Physically small",
+      "QualityAttribute_Sum": 2,
+      "Tactic": "Closed-loop learning",
+      "Tactic_Sum": 6,
+      "Score": 0.053,
+      "Score_minus_conf": 0.2572,
+      "Confidence": 0.2062
+    },
+    {
+      "QualityAttribute": "Flexibility",
+      "QualityAttribute_Sum": 7,
+      "Tactic": "Layer fusion",
+      "Tactic_Sum": 1,
+      "Score": 0.053,
+      "Score_minus_conf": 0.3278,
+      "Confidence": 0.1617
+    },
+    {
+      "QualityAttribute": "Flexibility",
+      "QualityAttribute_Sum": 7,
+      "Tactic": "Input spatial partitioning",
+      "Tactic_Sum": 1,
+      "Score": 0.053,
+      "Score_minus_conf": 0.3278,
+      "Confidence": 0.1617
+    },
+    {
+      "QualityAttribute": "Flexibility",
+      "QualityAttribute_Sum": 7,
+      "Tactic": "Adaptive model scheduling",
+      "Tactic_Sum": 1,
+      "Score": 0.053,
+      "Score_minus_conf": 0.3278,
+      "Confidence": 0.1617
+    },
+    {
+      "QualityAttribute": "Resiliency",
+      "QualityAttribute_Sum": 8,
+      "Tactic": "Merging of fault maps",
+      "Tactic_Sum": 1,
+      "Score": 0.0528,
+      "Score_minus_conf": 0.307,
+      "Confidence": 0.1719
+    },
+    {
+      "QualityAttribute": "Resiliency",
+      "QualityAttribute_Sum": 8,
+      "Tactic": "Fault-aware retraining",
+      "Tactic_Sum": 1,
+      "Score": 0.0528,
+      "Score_minus_conf": 0.307,
+      "Confidence": 0.1719
+    },
+    {
+      "QualityAttribute": "Resiliency",
+      "QualityAttribute_Sum": 8,
+      "Tactic": "Post-hoc uncertainty calibration ",
+      "Tactic_Sum": 1,
+      "Score": 0.0528,
+      "Score_minus_conf": 0.307,
+      "Confidence": 0.1719
+    },
+    {
+      "QualityAttribute": "Modifiability ",
+      "QualityAttribute_Sum": 3,
+      "Tactic": "Library Encapsulation",
+      "Tactic_Sum": 1,
+      "Score": 0.0526,
+      "Score_minus_conf": 0.4823,
+      "Confidence": 0.1091
+    },
+    {
+      "QualityAttribute": "Scalability",
+      "QualityAttribute_Sum": 3,
+      "Tactic": "Later local processing of encoded features",
+      "Tactic_Sum": 1,
+      "Score": 0.0526,
+      "Score_minus_conf": 0.4823,
+      "Confidence": 0.1091
+    },
+    {
+      "QualityAttribute": "Modifiability ",
+      "QualityAttribute_Sum": 3,
+      "Tactic": "Layer fusion",
+      "Tactic_Sum": 1,
+      "Score": 0.0526,
+      "Score_minus_conf": 0.4823,
+      "Confidence": 0.1091
+    },
+    {
+      "QualityAttribute": "Scalability",
+      "QualityAttribute_Sum": 3,
+      "Tactic": "Sensor ring architecture",
+      "Tactic_Sum": 1,
+      "Score": 0.0526,
+      "Score_minus_conf": 0.4823,
+      "Confidence": 0.1091
+    },
+    {
+      "QualityAttribute": "Modifiability ",
+      "QualityAttribute_Sum": 3,
+      "Tactic": "Adaptive model scheduling",
+      "Tactic_Sum": 1,
+      "Score": 0.0526,
+      "Score_minus_conf": 0.4823,
+      "Confidence": 0.1091
+    },
+    {
+      "QualityAttribute": "Modifiability ",
+      "QualityAttribute_Sum": 3,
+      "Tactic": "Input spatial partitioning",
+      "Tactic_Sum": 1,
+      "Score": 0.0526,
+      "Score_minus_conf": 0.4823,
+      "Confidence": 0.1091
+    },
+    {
+      "QualityAttribute": "Portability",
+      "QualityAttribute_Sum": 5,
+      "Tactic": "Model format conversion",
+      "Tactic_Sum": 2,
+      "Score": 0.0524,
+      "Score_minus_conf": 0.2759,
+      "Confidence": 0.1901
+    },
+    {
+      "QualityAttribute": "Portability",
+      "QualityAttribute_Sum": 5,
+      "Tactic": "Modular system design",
+      "Tactic_Sum": 2,
+      "Score": 0.0524,
+      "Score_minus_conf": 0.2759,
+      "Confidence": 0.1901
+    },
+    {
+      "QualityAttribute": "Indenpendency/Autonomy",
+      "QualityAttribute_Sum": 5,
+      "Tactic": "Incremental training with sensor data",
+      "Tactic_Sum": 2,
+      "Score": 0.0524,
+      "Score_minus_conf": 0.2759,
+      "Confidence": 0.1901
+    },
+    {
+      "QualityAttribute": "Scalability",
+      "QualityAttribute_Sum": 3,
+      "Tactic": "End-to-end learning",
+      "Tactic_Sum": 4,
+      "Score": 0.0523,
+      "Score_minus_conf": 0.2537,
+      "Confidence": 0.2062
+    },
+    {
+      "QualityAttribute": "Scalability",
+      "QualityAttribute_Sum": 3,
+      "Tactic": "Early-exit inference",
+      "Tactic_Sum": 4,
+      "Score": 0.0523,
+      "Score_minus_conf": 0.2537,
+      "Confidence": 0.2062
+    },
+    {
+      "QualityAttribute": "Interpretability",
+      "QualityAttribute_Sum": 2,
+      "Tactic": "Policy conversion",
+      "Tactic_Sum": 1,
+      "Score": 0.0518,
+      "Score_minus_conf": 0.5754,
+      "Confidence": 0.09
+    },
+    {
+      "QualityAttribute": "Modularity",
+      "QualityAttribute_Sum": 2,
+      "Tactic": "Automatic retraining and deployment triggering",
+      "Tactic_Sum": 1,
+      "Score": 0.0518,
+      "Score_minus_conf": 0.5754,
+      "Confidence": 0.09
+    },
+    {
+      "QualityAttribute": "Modularity",
+      "QualityAttribute_Sum": 2,
+      "Tactic": "Adaptive model scheduling",
+      "Tactic_Sum": 1,
+      "Score": 0.0518,
+      "Score_minus_conf": 0.5754,
+      "Confidence": 0.09
+    },
+    {
+      "QualityAttribute": "Interpretability",
+      "QualityAttribute_Sum": 2,
+      "Tactic": "Regularization training",
+      "Tactic_Sum": 8,
+      "Score": 0.0517,
+      "Score_minus_conf": 0.2209,
+      "Confidence": 0.2341
+    },
+    {
+      "QualityAttribute": "Physically small",
+      "QualityAttribute_Sum": 2,
+      "Tactic": "Hardware and Software codesign",
+      "Tactic_Sum": 8,
+      "Score": 0.0517,
+      "Score_minus_conf": 0.2209,
+      "Confidence": 0.2341
+    },
+    {
+      "QualityAttribute": "Training performance efficiency",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Fault-aware retraining",
+      "Tactic_Sum": 1,
+      "Score": 0.0516,
+      "Score_minus_conf": 0.2603,
+      "Confidence": 0.1984
+    },
+    {
+      "QualityAttribute": "Training performance efficiency",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Self-adjusted learning",
+      "Tactic_Sum": 1,
+      "Score": 0.0516,
+      "Score_minus_conf": 0.2603,
+      "Confidence": 0.1984
+    },
+    {
+      "QualityAttribute": "Training performance efficiency",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Training with uncertainty measures",
+      "Tactic_Sum": 1,
+      "Score": 0.0516,
+      "Score_minus_conf": 0.2603,
+      "Confidence": 0.1984
+    },
+    {
+      "QualityAttribute": "Training performance efficiency",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Weight initialization random",
+      "Tactic_Sum": 1,
+      "Score": 0.0516,
+      "Score_minus_conf": 0.2603,
+      "Confidence": 0.1984
+    },
+    {
+      "QualityAttribute": "Training performance efficiency",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Training loss early stopping",
+      "Tactic_Sum": 1,
+      "Score": 0.0516,
+      "Score_minus_conf": 0.2603,
+      "Confidence": 0.1984
+    },
+    {
+      "QualityAttribute": "Safety",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Policy conversion",
+      "Tactic_Sum": 1,
+      "Score": 0.0516,
+      "Score_minus_conf": 0.2603,
+      "Confidence": 0.1984
+    },
+    {
+      "QualityAttribute": "Safety",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Quantitative sensor selection",
+      "Tactic_Sum": 1,
+      "Score": 0.0516,
+      "Score_minus_conf": 0.2603,
+      "Confidence": 0.1984
+    },
+    {
+      "QualityAttribute": "Training performance efficiency",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Matrix reusing",
+      "Tactic_Sum": 1,
+      "Score": 0.0516,
+      "Score_minus_conf": 0.2603,
+      "Confidence": 0.1984
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Fault-map-based neuron re-mapping",
+      "Tactic_Sum": 1,
+      "Score": 0.0516,
+      "Score_minus_conf": 0.2603,
+      "Confidence": 0.1984
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Independent model development",
+      "Tactic_Sum": 1,
+      "Score": 0.0516,
+      "Score_minus_conf": 0.2603,
+      "Confidence": 0.1984
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Online training",
+      "Tactic_Sum": 1,
+      "Score": 0.0516,
+      "Score_minus_conf": 0.2603,
+      "Confidence": 0.1984
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Signal overwriting",
+      "Tactic_Sum": 1,
+      "Score": 0.0516,
+      "Score_minus_conf": 0.2603,
+      "Confidence": 0.1984
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Merging of fault maps",
+      "Tactic_Sum": 1,
+      "Score": 0.0516,
+      "Score_minus_conf": 0.2603,
+      "Confidence": 0.1984
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Fault-aware retraining",
+      "Tactic_Sum": 1,
+      "Score": 0.0516,
+      "Score_minus_conf": 0.2603,
+      "Confidence": 0.1984
+    },
+    {
+      "QualityAttribute": "Training performance efficiency",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Merging of fault maps",
+      "Tactic_Sum": 1,
+      "Score": 0.0516,
+      "Score_minus_conf": 0.2603,
+      "Confidence": 0.1984
+    },
+    {
+      "QualityAttribute": "Security",
+      "QualityAttribute_Sum": 6,
+      "Tactic": "Federated learning",
+      "Tactic_Sum": 2,
+      "Score": 0.0516,
+      "Score_minus_conf": 0.2501,
+      "Confidence": 0.2062
+    },
+    {
+      "QualityAttribute": "Usability",
+      "QualityAttribute_Sum": 2,
+      "Tactic": "Network partitioning",
+      "Tactic_Sum": 9,
+      "Score": 0.0509,
+      "Score_minus_conf": 0.2068,
+      "Confidence": 0.2464
+    },
+    {
+      "QualityAttribute": "Flexibility",
+      "QualityAttribute_Sum": 7,
+      "Tactic": "Denoising",
+      "Tactic_Sum": 2,
+      "Score": 0.0506,
+      "Score_minus_conf": 0.2292,
+      "Confidence": 0.2208
+    },
+    {
+      "QualityAttribute": "Flexibility",
+      "QualityAttribute_Sum": 7,
+      "Tactic": "Modular system design",
+      "Tactic_Sum": 2,
+      "Score": 0.0506,
+      "Score_minus_conf": 0.2292,
+      "Confidence": 0.2208
+    },
+    {
+      "QualityAttribute": "Indenpendency/Autonomy",
+      "QualityAttribute_Sum": 5,
+      "Tactic": "On-device local training",
+      "Tactic_Sum": 3,
+      "Score": 0.0505,
+      "Score_minus_conf": 0.2217,
+      "Confidence": 0.2276
+    },
+    {
+      "QualityAttribute": "Portability",
+      "QualityAttribute_Sum": 5,
+      "Tactic": "Multitask Scheduling",
+      "Tactic_Sum": 3,
+      "Score": 0.0505,
+      "Score_minus_conf": 0.2217,
+      "Confidence": 0.2276
+    },
+    {
+      "QualityAttribute": "Portability",
+      "QualityAttribute_Sum": 5,
+      "Tactic": "Deployment pipeline creation",
+      "Tactic_Sum": 3,
+      "Score": 0.0505,
+      "Score_minus_conf": 0.2217,
+      "Confidence": 0.2276
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Tenary weights",
+      "Tactic_Sum": 4,
+      "Score": 0.0503,
+      "Score_minus_conf": 0.066,
+      "Confidence": 0.7621
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "Cloud compression and edge reconstruction",
+      "Tactic_Sum": 1,
+      "Score": 0.0502,
+      "Score_minus_conf": 0.2273,
+      "Confidence": 0.2208
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "Convolution unfolding",
+      "Tactic_Sum": 1,
+      "Score": 0.0502,
+      "Score_minus_conf": 0.2273,
+      "Confidence": 0.2208
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "Sensor ring architecture",
+      "Tactic_Sum": 1,
+      "Score": 0.0502,
+      "Score_minus_conf": 0.2273,
+      "Confidence": 0.2208
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "Cache preloading",
+      "Tactic_Sum": 1,
+      "Score": 0.0502,
+      "Score_minus_conf": 0.2273,
+      "Confidence": 0.2208
+    },
+    {
+      "QualityAttribute": "Reliability",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Independent model development",
+      "Tactic_Sum": 1,
+      "Score": 0.0496,
+      "Score_minus_conf": 0.2181,
+      "Confidence": 0.2276
+    },
+    {
+      "QualityAttribute": "Performance Efficiency",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Post-training quantization",
+      "Tactic_Sum": 1,
+      "Score": 0.0496,
+      "Score_minus_conf": 0.2181,
+      "Confidence": 0.2276
+    },
+    {
+      "QualityAttribute": "Performance Efficiency",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Imitation learning",
+      "Tactic_Sum": 1,
+      "Score": 0.0496,
+      "Score_minus_conf": 0.2181,
+      "Confidence": 0.2276
+    },
+    {
+      "QualityAttribute": "Reliability",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Quantitative sensor selection",
+      "Tactic_Sum": 1,
+      "Score": 0.0496,
+      "Score_minus_conf": 0.2181,
+      "Confidence": 0.2276
+    },
+    {
+      "QualityAttribute": "Reliability",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Input spatial partitioning",
+      "Tactic_Sum": 1,
+      "Score": 0.0496,
+      "Score_minus_conf": 0.2181,
+      "Confidence": 0.2276
+    },
+    {
+      "QualityAttribute": "Reliability",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Layer fusion",
+      "Tactic_Sum": 1,
+      "Score": 0.0496,
+      "Score_minus_conf": 0.2181,
+      "Confidence": 0.2276
+    },
+    {
+      "QualityAttribute": "Performance Efficiency",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Single task assignment",
+      "Tactic_Sum": 1,
+      "Score": 0.0496,
+      "Score_minus_conf": 0.2181,
+      "Confidence": 0.2276
+    },
+    {
+      "QualityAttribute": "Reliability",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Training with uncertainty measures",
+      "Tactic_Sum": 1,
+      "Score": 0.0496,
+      "Score_minus_conf": 0.2181,
+      "Confidence": 0.2276
+    },
+    {
+      "QualityAttribute": "Performance Efficiency",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Model fusion",
+      "Tactic_Sum": 1,
+      "Score": 0.0496,
+      "Score_minus_conf": 0.2181,
+      "Confidence": 0.2276
+    },
+    {
+      "QualityAttribute": "Resiliency",
+      "QualityAttribute_Sum": 8,
+      "Tactic": "Test time adaption",
+      "Tactic_Sum": 2,
+      "Score": 0.0496,
+      "Score_minus_conf": 0.2117,
+      "Confidence": 0.2341
+    },
+    {
+      "QualityAttribute": "Resiliency",
+      "QualityAttribute_Sum": 8,
+      "Tactic": "Adapter module",
+      "Tactic_Sum": 2,
+      "Score": 0.0496,
+      "Score_minus_conf": 0.2117,
+      "Confidence": 0.2341
+    },
+    {
+      "QualityAttribute": "Performance Efficiency",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Neural architecture search",
+      "Tactic_Sum": 10,
+      "Score": 0.0495,
+      "Score_minus_conf": 0.0887,
+      "Confidence": 0.558
+    },
+    {
+      "QualityAttribute": "Reliability",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Neural architecture search",
+      "Tactic_Sum": 10,
+      "Score": 0.0495,
+      "Score_minus_conf": 0.0887,
+      "Confidence": 0.558
+    },
+    {
+      "QualityAttribute": "Training performance efficiency",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Adversarial training",
+      "Tactic_Sum": 28,
+      "Score": 0.0494,
+      "Score_minus_conf": 0.0717,
+      "Confidence": 0.6896
+    },
+    {
+      "QualityAttribute": "Physically small",
+      "QualityAttribute_Sum": 2,
+      "Tactic": "Destillation learning",
+      "Tactic_Sum": 11,
+      "Score": 0.0493,
+      "Score_minus_conf": 0.1835,
+      "Confidence": 0.2685
+    },
+    {
+      "QualityAttribute": "Interpretability",
+      "QualityAttribute_Sum": 2,
+      "Tactic": "Destillation learning",
+      "Tactic_Sum": 11,
+      "Score": 0.0493,
+      "Score_minus_conf": 0.1835,
+      "Confidence": 0.2685
+    },
+    {
+      "QualityAttribute": "Usability",
+      "QualityAttribute_Sum": 2,
+      "Tactic": "External computational offloading",
+      "Tactic_Sum": 11,
+      "Score": 0.0493,
+      "Score_minus_conf": 0.1835,
+      "Confidence": 0.2685
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "ADMM-based compression",
+      "Tactic_Sum": 4,
+      "Score": 0.0489,
+      "Score_minus_conf": 0.0639,
+      "Confidence": 0.765
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Tenary weights",
+      "Tactic_Sum": 4,
+      "Score": 0.0489,
+      "Score_minus_conf": 0.0639,
+      "Confidence": 0.765
+    },
+    {
+      "QualityAttribute": "Modifiability ",
+      "QualityAttribute_Sum": 3,
+      "Tactic": "Concurrent processing hardware",
+      "Tactic_Sum": 7,
+      "Score": 0.0485,
+      "Score_minus_conf": 0.1842,
+      "Confidence": 0.2632
+    },
+    {
+      "QualityAttribute": "Indenpendency/Autonomy",
+      "QualityAttribute_Sum": 5,
+      "Tactic": "Edge compute hardware",
+      "Tactic_Sum": 4,
+      "Score": 0.0481,
+      "Score_minus_conf": 0.1864,
+      "Confidence": 0.2578
+    },
+    {
+      "QualityAttribute": "Portability",
+      "QualityAttribute_Sum": 5,
+      "Tactic": "Simultaneous memory loading",
+      "Tactic_Sum": 4,
+      "Score": 0.0481,
+      "Score_minus_conf": 0.1864,
+      "Confidence": 0.2578
+    },
+    {
+      "QualityAttribute": "Flexibility",
+      "QualityAttribute_Sum": 7,
+      "Tactic": "Deployment pipeline creation",
+      "Tactic_Sum": 3,
+      "Score": 0.0471,
+      "Score_minus_conf": 0.179,
+      "Confidence": 0.2632
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Fault-map-based neuron re-mapping",
+      "Tactic_Sum": 1,
+      "Score": 0.0462,
+      "Score_minus_conf": 0.1755,
+      "Confidence": 0.2632
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Post-hoc uncertainty calibration ",
+      "Tactic_Sum": 1,
+      "Score": 0.0462,
+      "Score_minus_conf": 0.1755,
+      "Confidence": 0.2632
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Imitation learning",
+      "Tactic_Sum": 1,
+      "Score": 0.0462,
+      "Score_minus_conf": 0.1755,
+      "Confidence": 0.2632
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Online training",
+      "Tactic_Sum": 1,
+      "Score": 0.0462,
+      "Score_minus_conf": 0.1755,
+      "Confidence": 0.2632
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Automatic retraining and deployment triggering",
+      "Tactic_Sum": 1,
+      "Score": 0.0462,
+      "Score_minus_conf": 0.1755,
+      "Confidence": 0.2632
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Test-time training",
+      "Tactic_Sum": 1,
+      "Score": 0.0462,
+      "Score_minus_conf": 0.1755,
+      "Confidence": 0.2632
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Single task assignment",
+      "Tactic_Sum": 1,
+      "Score": 0.0462,
+      "Score_minus_conf": 0.1755,
+      "Confidence": 0.2632
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Contrastive representation learning",
+      "Tactic_Sum": 1,
+      "Score": 0.0462,
+      "Score_minus_conf": 0.1755,
+      "Confidence": 0.2632
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Model pool for deployment",
+      "Tactic_Sum": 1,
+      "Score": 0.0462,
+      "Score_minus_conf": 0.1755,
+      "Confidence": 0.2632
+    },
+    {
+      "QualityAttribute": "Safety",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Incremental training with sensor data",
+      "Tactic_Sum": 2,
+      "Score": 0.0462,
+      "Score_minus_conf": 0.1719,
+      "Confidence": 0.2685
+    },
+    {
+      "QualityAttribute": "Training performance efficiency",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Label smooting",
+      "Tactic_Sum": 2,
+      "Score": 0.0462,
+      "Score_minus_conf": 0.1719,
+      "Confidence": 0.2685
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Training with gradient noise",
+      "Tactic_Sum": 2,
+      "Score": 0.0462,
+      "Score_minus_conf": 0.1719,
+      "Confidence": 0.2685
+    },
+    {
+      "QualityAttribute": "Training performance efficiency",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Training with gradient noise",
+      "Tactic_Sum": 2,
+      "Score": 0.0462,
+      "Score_minus_conf": 0.1719,
+      "Confidence": 0.2685
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Additional side branches with uncertainty measures",
+      "Tactic_Sum": 2,
+      "Score": 0.0462,
+      "Score_minus_conf": 0.1719,
+      "Confidence": 0.2685
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Tuner and meta-tuner blocks",
+      "Tactic_Sum": 2,
+      "Score": 0.0462,
+      "Score_minus_conf": 0.1719,
+      "Confidence": 0.2685
+    },
+    {
+      "QualityAttribute": "Security",
+      "QualityAttribute_Sum": 6,
+      "Tactic": "Edge compute hardware",
+      "Tactic_Sum": 4,
+      "Score": 0.0457,
+      "Score_minus_conf": 0.1642,
+      "Confidence": 0.2786
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Sensor ring architecture",
+      "Tactic_Sum": 1,
+      "Score": 0.0456,
+      "Score_minus_conf": 0.1699,
+      "Confidence": 0.2685
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Cache preloading",
+      "Tactic_Sum": 1,
+      "Score": 0.0456,
+      "Score_minus_conf": 0.1699,
+      "Confidence": 0.2685
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Light communication protocol usage",
+      "Tactic_Sum": 1,
+      "Score": 0.0456,
+      "Score_minus_conf": 0.1699,
+      "Confidence": 0.2685
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Imitation learning",
+      "Tactic_Sum": 1,
+      "Score": 0.0456,
+      "Score_minus_conf": 0.1699,
+      "Confidence": 0.2685
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Coupled semantic descriptions",
+      "Tactic_Sum": 1,
+      "Score": 0.0456,
+      "Score_minus_conf": 0.1699,
+      "Confidence": 0.2685
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Straggler mitigation",
+      "Tactic_Sum": 1,
+      "Score": 0.0456,
+      "Score_minus_conf": 0.1699,
+      "Confidence": 0.2685
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Later local processing of encoded features",
+      "Tactic_Sum": 1,
+      "Score": 0.0456,
+      "Score_minus_conf": 0.1699,
+      "Confidence": 0.2685
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Adaptive model scheduling",
+      "Tactic_Sum": 1,
+      "Score": 0.0456,
+      "Score_minus_conf": 0.1699,
+      "Confidence": 0.2685
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Adaptive batching",
+      "Tactic_Sum": 1,
+      "Score": 0.0456,
+      "Score_minus_conf": 0.1699,
+      "Confidence": 0.2685
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Competing models ",
+      "Tactic_Sum": 1,
+      "Score": 0.0456,
+      "Score_minus_conf": 0.1699,
+      "Confidence": 0.2685
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Prediction combination of multi-models",
+      "Tactic_Sum": 1,
+      "Score": 0.0456,
+      "Score_minus_conf": 0.1699,
+      "Confidence": 0.2685
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Cloud compression and edge reconstruction",
+      "Tactic_Sum": 1,
+      "Score": 0.0456,
+      "Score_minus_conf": 0.1699,
+      "Confidence": 0.2685
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Single task assignment",
+      "Tactic_Sum": 1,
+      "Score": 0.0456,
+      "Score_minus_conf": 0.1699,
+      "Confidence": 0.2685
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Data-level parallelsim in CNN layer",
+      "Tactic_Sum": 1,
+      "Score": 0.0456,
+      "Score_minus_conf": 0.1699,
+      "Confidence": 0.2685
+    },
+    {
+      "QualityAttribute": "Modifiability ",
+      "QualityAttribute_Sum": 3,
+      "Tactic": "Task-level parallelism on CNN layer-level",
+      "Tactic_Sum": 9,
+      "Score": 0.0456,
+      "Score_minus_conf": 0.1557,
+      "Confidence": 0.2928
+    },
+    {
+      "QualityAttribute": "Modifiability ",
+      "QualityAttribute_Sum": 3,
+      "Tactic": "Network partitioning",
+      "Tactic_Sum": 9,
+      "Score": 0.0456,
+      "Score_minus_conf": 0.1557,
+      "Confidence": 0.2928
+    },
+    {
+      "QualityAttribute": "Scalability",
+      "QualityAttribute_Sum": 3,
+      "Tactic": "Task-level parallelism on CNN layer-level",
+      "Tactic_Sum": 9,
+      "Score": 0.0456,
+      "Score_minus_conf": 0.1557,
+      "Confidence": 0.2928
+    },
+    {
+      "QualityAttribute": "Portability",
+      "QualityAttribute_Sum": 5,
+      "Tactic": "TPU SoC or Accelerator Hardware ",
+      "Tactic_Sum": 5,
+      "Score": 0.0455,
+      "Score_minus_conf": 0.1605,
+      "Confidence": 0.2835
+    },
+    {
+      "QualityAttribute": "Portability",
+      "QualityAttribute_Sum": 5,
+      "Tactic": "Mixed-precision compression",
+      "Tactic_Sum": 5,
+      "Score": 0.0455,
+      "Score_minus_conf": 0.1605,
+      "Confidence": 0.2835
+    },
+    {
+      "QualityAttribute": "Resiliency",
+      "QualityAttribute_Sum": 8,
+      "Tactic": "Failure prevention or mitigation",
+      "Tactic_Sum": 3,
+      "Score": 0.0454,
+      "Score_minus_conf": 0.163,
+      "Confidence": 0.2786
+    },
+    {
+      "QualityAttribute": "Resiliency",
+      "QualityAttribute_Sum": 8,
+      "Tactic": "Normalization",
+      "Tactic_Sum": 3,
+      "Score": 0.0454,
+      "Score_minus_conf": 0.163,
+      "Confidence": 0.2786
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Incremental training with sensor data",
+      "Tactic_Sum": 2,
+      "Score": 0.0445,
+      "Score_minus_conf": 0.0767,
+      "Confidence": 0.5807
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Modular system design",
+      "Tactic_Sum": 2,
+      "Score": 0.0445,
+      "Score_minus_conf": 0.0767,
+      "Confidence": 0.5807
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Architecture design optimization with reinforcement learning",
+      "Tactic_Sum": 2,
+      "Score": 0.0445,
+      "Score_minus_conf": 0.0767,
+      "Confidence": 0.5807
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Additional side branches with uncertainty measures",
+      "Tactic_Sum": 2,
+      "Score": 0.0445,
+      "Score_minus_conf": 0.0767,
+      "Confidence": 0.5807
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Bottleneck module",
+      "Tactic_Sum": 2,
+      "Score": 0.0445,
+      "Score_minus_conf": 0.0767,
+      "Confidence": 0.5807
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Deadline-aware scheduling",
+      "Tactic_Sum": 2,
+      "Score": 0.0445,
+      "Score_minus_conf": 0.0767,
+      "Confidence": 0.5807
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Memory scheduling",
+      "Tactic_Sum": 2,
+      "Score": 0.0445,
+      "Score_minus_conf": 0.0767,
+      "Confidence": 0.5807
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Prediction/intermediate result caching",
+      "Tactic_Sum": 2,
+      "Score": 0.0445,
+      "Score_minus_conf": 0.0767,
+      "Confidence": 0.5807
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Sparsification",
+      "Tactic_Sum": 10,
+      "Score": 0.0443,
+      "Score_minus_conf": 0.0493,
+      "Confidence": 0.8987
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Concurrent processing hardware",
+      "Tactic_Sum": 7,
+      "Score": 0.044,
+      "Score_minus_conf": 0.0515,
+      "Confidence": 0.8528
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Network partitioning",
+      "Tactic_Sum": 9,
+      "Score": 0.0438,
+      "Score_minus_conf": 0.0521,
+      "Confidence": 0.8418
+    },
+    {
+      "QualityAttribute": "Portability",
+      "QualityAttribute_Sum": 5,
+      "Tactic": "Multi-model of different models",
+      "Tactic_Sum": 6,
+      "Score": 0.0429,
+      "Score_minus_conf": 0.1403,
+      "Confidence": 0.3059
+    },
+    {
+      "QualityAttribute": "Indenpendency/Autonomy",
+      "QualityAttribute_Sum": 5,
+      "Tactic": "Closed-loop learning",
+      "Tactic_Sum": 6,
+      "Score": 0.0429,
+      "Score_minus_conf": 0.1403,
+      "Confidence": 0.3059
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "Additional side branches with uncertainty measures",
+      "Tactic_Sum": 2,
+      "Score": 0.0427,
+      "Score_minus_conf": 0.1437,
+      "Confidence": 0.2973
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "Prediction/intermediate result caching",
+      "Tactic_Sum": 2,
+      "Score": 0.0427,
+      "Score_minus_conf": 0.1437,
+      "Confidence": 0.2973
+    },
+    {
+      "QualityAttribute": "Security",
+      "QualityAttribute_Sum": 6,
+      "Tactic": "Sensor or input data fusion",
+      "Tactic_Sum": 5,
+      "Score": 0.0426,
+      "Score_minus_conf": 0.1393,
+      "Confidence": 0.3059
+    },
+    {
+      "QualityAttribute": "Reliability",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Sensor duty cycle",
+      "Tactic_Sum": 2,
+      "Score": 0.0416,
+      "Score_minus_conf": 0.1359,
+      "Confidence": 0.3059
+    },
+    {
+      "QualityAttribute": "Performance Efficiency",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Robust feature extraction",
+      "Tactic_Sum": 2,
+      "Score": 0.0416,
+      "Score_minus_conf": 0.1359,
+      "Confidence": 0.3059
+    },
+    {
+      "QualityAttribute": "Reliability",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Parameter amount reduction",
+      "Tactic_Sum": 2,
+      "Score": 0.0416,
+      "Score_minus_conf": 0.1359,
+      "Confidence": 0.3059
+    },
+    {
+      "QualityAttribute": "Resiliency",
+      "QualityAttribute_Sum": 8,
+      "Tactic": "Few-shot learning",
+      "Tactic_Sum": 4,
+      "Score": 0.0412,
+      "Score_minus_conf": 0.1311,
+      "Confidence": 0.3142
+    },
+    {
+      "QualityAttribute": "Training performance efficiency",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Pretraining",
+      "Tactic_Sum": 3,
+      "Score": 0.0403,
+      "Score_minus_conf": 0.1267,
+      "Confidence": 0.3182
+    },
+    {
+      "QualityAttribute": "Safety",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Out-of-distribution detection",
+      "Tactic_Sum": 3,
+      "Score": 0.0403,
+      "Score_minus_conf": 0.1267,
+      "Confidence": 0.3182
+    },
+    {
+      "QualityAttribute": "Training performance efficiency",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Standard training on fully labeled datasets",
+      "Tactic_Sum": 3,
+      "Score": 0.0403,
+      "Score_minus_conf": 0.1267,
+      "Confidence": 0.3182
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Normalization",
+      "Tactic_Sum": 3,
+      "Score": 0.0403,
+      "Score_minus_conf": 0.1267,
+      "Confidence": 0.3182
+    },
+    {
+      "QualityAttribute": "Training performance efficiency",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Self-supervision learning",
+      "Tactic_Sum": 3,
+      "Score": 0.0403,
+      "Score_minus_conf": 0.1267,
+      "Confidence": 0.3182
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Pruning",
+      "Tactic_Sum": 23,
+      "Score": 0.0381,
+      "Score_minus_conf": 0.0393,
+      "Confidence": 0.968
+    },
+    {
+      "QualityAttribute": "Portability",
+      "QualityAttribute_Sum": 5,
+      "Tactic": "Hardware and Software codesign",
+      "Tactic_Sum": 8,
+      "Score": 0.0379,
+      "Score_minus_conf": 0.1103,
+      "Confidence": 0.344
+    },
+    {
+      "QualityAttribute": "Indenpendency/Autonomy",
+      "QualityAttribute_Sum": 5,
+      "Tactic": "Quantization",
+      "Tactic_Sum": 40,
+      "Score": 0.0376,
+      "Score_minus_conf": 0.0616,
+      "Confidence": 0.6105
+    },
+    {
+      "QualityAttribute": "Flexibility",
+      "QualityAttribute_Sum": 7,
+      "Tactic": "Closed-loop learning",
+      "Tactic_Sum": 6,
+      "Score": 0.0364,
+      "Score_minus_conf": 0.1037,
+      "Confidence": 0.3508
+    },
+    {
+      "QualityAttribute": "Portability",
+      "QualityAttribute_Sum": 5,
+      "Tactic": "Task-level parallelism on CNN layer-level",
+      "Tactic_Sum": 9,
+      "Score": 0.0356,
+      "Score_minus_conf": 0.0986,
+      "Confidence": 0.3606
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "Quantization-aware training",
+      "Tactic_Sum": 3,
+      "Score": 0.0355,
+      "Score_minus_conf": 0.1012,
+      "Confidence": 0.3508
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "Internal computation balancing",
+      "Tactic_Sum": 3,
+      "Score": 0.0355,
+      "Score_minus_conf": 0.1012,
+      "Confidence": 0.3508
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "On-device local training",
+      "Tactic_Sum": 3,
+      "Score": 0.0355,
+      "Score_minus_conf": 0.1012,
+      "Confidence": 0.3508
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "Feature encoding",
+      "Tactic_Sum": 3,
+      "Score": 0.0355,
+      "Score_minus_conf": 0.1012,
+      "Confidence": 0.3508
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Robust feature extraction",
+      "Tactic_Sum": 2,
+      "Score": 0.0351,
+      "Score_minus_conf": 0.1,
+      "Confidence": 0.3508
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Tuner and meta-tuner blocks",
+      "Tactic_Sum": 2,
+      "Score": 0.0351,
+      "Score_minus_conf": 0.1,
+      "Confidence": 0.3508
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Training with unlabed data",
+      "Tactic_Sum": 2,
+      "Score": 0.0351,
+      "Score_minus_conf": 0.1,
+      "Confidence": 0.3508
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Early-exit inference",
+      "Tactic_Sum": 4,
+      "Score": 0.0348,
+      "Score_minus_conf": 0.0975,
+      "Confidence": 0.3574
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Training with adversarial noise",
+      "Tactic_Sum": 4,
+      "Score": 0.0348,
+      "Score_minus_conf": 0.0975,
+      "Confidence": 0.3574
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Edge compute hardware",
+      "Tactic_Sum": 4,
+      "Score": 0.0348,
+      "Score_minus_conf": 0.0975,
+      "Confidence": 0.3574
+    },
+    {
+      "QualityAttribute": "Training performance efficiency",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Training with adversarial noise",
+      "Tactic_Sum": 4,
+      "Score": 0.0348,
+      "Score_minus_conf": 0.0975,
+      "Confidence": 0.3574
+    },
+    {
+      "QualityAttribute": "Training performance efficiency",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Fault tolerant training",
+      "Tactic_Sum": 4,
+      "Score": 0.0348,
+      "Score_minus_conf": 0.0975,
+      "Confidence": 0.3574
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Few-shot learning",
+      "Tactic_Sum": 4,
+      "Score": 0.0348,
+      "Score_minus_conf": 0.0975,
+      "Confidence": 0.3574
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "End-to-end learning",
+      "Tactic_Sum": 4,
+      "Score": 0.0348,
+      "Score_minus_conf": 0.0975,
+      "Confidence": 0.3574
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Regularization",
+      "Tactic_Sum": 7,
+      "Score": 0.0342,
+      "Score_minus_conf": 0.0445,
+      "Confidence": 0.769
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Model format conversion",
+      "Tactic_Sum": 2,
+      "Score": 0.0341,
+      "Score_minus_conf": 0.0953,
+      "Confidence": 0.3574
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Frame rate reduction",
+      "Tactic_Sum": 2,
+      "Score": 0.0341,
+      "Score_minus_conf": 0.0953,
+      "Confidence": 0.3574
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Robust feature extraction",
+      "Tactic_Sum": 2,
+      "Score": 0.0341,
+      "Score_minus_conf": 0.0953,
+      "Confidence": 0.3574
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Federated learning",
+      "Tactic_Sum": 2,
+      "Score": 0.0341,
+      "Score_minus_conf": 0.0953,
+      "Confidence": 0.3574
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Prediction/intermediate result caching",
+      "Tactic_Sum": 2,
+      "Score": 0.0341,
+      "Score_minus_conf": 0.0953,
+      "Confidence": 0.3574
+    },
+    {
+      "QualityAttribute": "Performance Efficiency",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Normalization",
+      "Tactic_Sum": 3,
+      "Score": 0.034,
+      "Score_minus_conf": 0.0943,
+      "Confidence": 0.3606
+    },
+    {
+      "QualityAttribute": "Reliability",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Pretraining",
+      "Tactic_Sum": 3,
+      "Score": 0.034,
+      "Score_minus_conf": 0.0943,
+      "Confidence": 0.3606
+    },
+    {
+      "QualityAttribute": "Reliability",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Standard training on fully labeled datasets",
+      "Tactic_Sum": 3,
+      "Score": 0.034,
+      "Score_minus_conf": 0.0943,
+      "Confidence": 0.3606
+    },
+    {
+      "QualityAttribute": "Reliability",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Containerization",
+      "Tactic_Sum": 3,
+      "Score": 0.034,
+      "Score_minus_conf": 0.0943,
+      "Confidence": 0.3606
+    },
+    {
+      "QualityAttribute": "Performance Efficiency",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Quantization-aware retraining",
+      "Tactic_Sum": 3,
+      "Score": 0.034,
+      "Score_minus_conf": 0.0943,
+      "Confidence": 0.3606
+    },
+    {
+      "QualityAttribute": "Reliability",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Normalization",
+      "Tactic_Sum": 3,
+      "Score": 0.034,
+      "Score_minus_conf": 0.0943,
+      "Confidence": 0.3606
+    },
+    {
+      "QualityAttribute": "Indenpendency/Autonomy",
+      "QualityAttribute_Sum": 5,
+      "Tactic": "Meta-learning",
+      "Tactic_Sum": 10,
+      "Score": 0.0333,
+      "Score_minus_conf": 0.0886,
+      "Confidence": 0.3759
+    },
+    {
+      "QualityAttribute": "Flexibility",
+      "QualityAttribute_Sum": 7,
+      "Tactic": "Concurrent processing hardware",
+      "Tactic_Sum": 7,
+      "Score": 0.0331,
+      "Score_minus_conf": 0.0888,
+      "Confidence": 0.3729
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Binary weights and activations",
+      "Tactic_Sum": 6,
+      "Score": 0.0317,
+      "Score_minus_conf": 0.0408,
+      "Confidence": 0.7781
+    },
+    {
+      "QualityAttribute": "Interoperability",
+      "QualityAttribute_Sum": 6,
+      "Tactic": "Task-level parallelism on CNN layer-level",
+      "Tactic_Sum": 9,
+      "Score": 0.0312,
+      "Score_minus_conf": 0.0806,
+      "Confidence": 0.3873
+    },
+    {
+      "QualityAttribute": "Interoperability",
+      "QualityAttribute_Sum": 6,
+      "Tactic": "Network partitioning",
+      "Tactic_Sum": 9,
+      "Score": 0.0312,
+      "Score_minus_conf": 0.0806,
+      "Confidence": 0.3873
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Network partitioning",
+      "Tactic_Sum": 9,
+      "Score": 0.0312,
+      "Score_minus_conf": 0.0512,
+      "Confidence": 0.6086
+    },
+    {
+      "QualityAttribute": "Indenpendency/Autonomy",
+      "QualityAttribute_Sum": 5,
+      "Tactic": "Training optimization algorithm selection or adaptation",
+      "Tactic_Sum": 11,
+      "Score": 0.0311,
+      "Score_minus_conf": 0.0798,
+      "Confidence": 0.3901
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Task-level parallelism on CNN layer-level",
+      "Tactic_Sum": 9,
+      "Score": 0.0306,
+      "Score_minus_conf": 0.0346,
+      "Confidence": 0.8861
+    },
+    {
+      "QualityAttribute": "Flexibility",
+      "QualityAttribute_Sum": 7,
+      "Tactic": "Hardware and Software codesign",
+      "Tactic_Sum": 8,
+      "Score": 0.0301,
+      "Score_minus_conf": 0.0766,
+      "Confidence": 0.3928
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Input resolution adjustment",
+      "Tactic_Sum": 3,
+      "Score": 0.0299,
+      "Score_minus_conf": 0.0421,
+      "Confidence": 0.7117
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Network combination",
+      "Tactic_Sum": 3,
+      "Score": 0.0299,
+      "Score_minus_conf": 0.0421,
+      "Confidence": 0.7117
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Quantization-aware training",
+      "Tactic_Sum": 3,
+      "Score": 0.0299,
+      "Score_minus_conf": 0.0421,
+      "Confidence": 0.7117
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Quantization-aware retraining",
+      "Tactic_Sum": 3,
+      "Score": 0.0299,
+      "Score_minus_conf": 0.0421,
+      "Confidence": 0.7117
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Sensor or input data fusion",
+      "Tactic_Sum": 5,
+      "Score": 0.0299,
+      "Score_minus_conf": 0.0767,
+      "Confidence": 0.3901
+    },
+    {
+      "QualityAttribute": "Safety",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Sensor or input data fusion",
+      "Tactic_Sum": 5,
+      "Score": 0.0299,
+      "Score_minus_conf": 0.0767,
+      "Confidence": 0.3901
+    },
+    {
+      "QualityAttribute": "Training performance efficiency",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Heuristics-driven augmentation",
+      "Tactic_Sum": 5,
+      "Score": 0.0299,
+      "Score_minus_conf": 0.0767,
+      "Confidence": 0.3901
+    },
+    {
+      "QualityAttribute": "Safety",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Architecture design through math. optimization",
+      "Tactic_Sum": 5,
+      "Score": 0.0299,
+      "Score_minus_conf": 0.0767,
+      "Confidence": 0.3901
+    },
+    {
+      "QualityAttribute": "Resiliency",
+      "QualityAttribute_Sum": 8,
+      "Tactic": "Smaller computation datatype",
+      "Tactic_Sum": 7,
+      "Score": 0.0299,
+      "Score_minus_conf": 0.0761,
+      "Confidence": 0.3928
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Binary weights and activations",
+      "Tactic_Sum": 6,
+      "Score": 0.0298,
+      "Score_minus_conf": 0.0359,
+      "Confidence": 0.8277
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "Early-exit inference",
+      "Tactic_Sum": 4,
+      "Score": 0.0292,
+      "Score_minus_conf": 0.0744,
+      "Confidence": 0.3928
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "Training with adversarial noise",
+      "Tactic_Sum": 4,
+      "Score": 0.0292,
+      "Score_minus_conf": 0.0744,
+      "Confidence": 0.3928
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "End-to-end learning",
+      "Tactic_Sum": 4,
+      "Score": 0.0292,
+      "Score_minus_conf": 0.0744,
+      "Confidence": 0.3928
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Quantization-aware retraining",
+      "Tactic_Sum": 3,
+      "Score": 0.0292,
+      "Score_minus_conf": 0.0408,
+      "Confidence": 0.7147
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Quantization-aware training",
+      "Tactic_Sum": 3,
+      "Score": 0.0292,
+      "Score_minus_conf": 0.0408,
+      "Confidence": 0.7147
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Network combination",
+      "Tactic_Sum": 3,
+      "Score": 0.0292,
+      "Score_minus_conf": 0.0408,
+      "Confidence": 0.7147
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Out-of-distribution detection",
+      "Tactic_Sum": 3,
+      "Score": 0.0288,
+      "Score_minus_conf": 0.0467,
+      "Confidence": 0.6168
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Self-supervision learning",
+      "Tactic_Sum": 3,
+      "Score": 0.0288,
+      "Score_minus_conf": 0.0467,
+      "Confidence": 0.6168
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Standard training on fully labeled datasets",
+      "Tactic_Sum": 3,
+      "Score": 0.0288,
+      "Score_minus_conf": 0.0467,
+      "Confidence": 0.6168
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Finetuning ",
+      "Tactic_Sum": 10,
+      "Score": 0.0278,
+      "Score_minus_conf": 0.0449,
+      "Confidence": 0.6194
+    },
+    {
+      "QualityAttribute": "Performance Efficiency",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "End-to-end learning",
+      "Tactic_Sum": 4,
+      "Score": 0.0275,
+      "Score_minus_conf": 0.0682,
+      "Confidence": 0.4033
+    },
+    {
+      "QualityAttribute": "Performance Efficiency",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "ADMM-based compression",
+      "Tactic_Sum": 4,
+      "Score": 0.0275,
+      "Score_minus_conf": 0.0682,
+      "Confidence": 0.4033
+    },
+    {
+      "QualityAttribute": "Reliability",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Fault tolerant training",
+      "Tactic_Sum": 4,
+      "Score": 0.0275,
+      "Score_minus_conf": 0.0682,
+      "Confidence": 0.4033
+    },
+    {
+      "QualityAttribute": "Performance Efficiency",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Specific model type selection",
+      "Tactic_Sum": 4,
+      "Score": 0.0275,
+      "Score_minus_conf": 0.0682,
+      "Confidence": 0.4033
+    },
+    {
+      "QualityAttribute": "Flexibility",
+      "QualityAttribute_Sum": 7,
+      "Tactic": "Network partitioning",
+      "Tactic_Sum": 9,
+      "Score": 0.0273,
+      "Score_minus_conf": 0.0664,
+      "Confidence": 0.4109
+    },
+    {
+      "QualityAttribute": "Flexibility",
+      "QualityAttribute_Sum": 7,
+      "Tactic": "Task-level parallelism on CNN layer-level",
+      "Tactic_Sum": 9,
+      "Score": 0.0273,
+      "Score_minus_conf": 0.0664,
+      "Confidence": 0.4109
+    },
+    {
+      "QualityAttribute": "Resiliency",
+      "QualityAttribute_Sum": 8,
+      "Tactic": "Hardware and Software codesign",
+      "Tactic_Sum": 8,
+      "Score": 0.0267,
+      "Score_minus_conf": 0.0646,
+      "Confidence": 0.4134
+    },
+    {
+      "QualityAttribute": "Security",
+      "QualityAttribute_Sum": 6,
+      "Tactic": "External computational offloading",
+      "Tactic_Sum": 11,
+      "Score": 0.0264,
+      "Score_minus_conf": 0.0631,
+      "Confidence": 0.4182
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Hardware and Software codesign",
+      "Tactic_Sum": 8,
+      "Score": 0.0263,
+      "Score_minus_conf": 0.0319,
+      "Confidence": 0.8242
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Self-supervision learning",
+      "Tactic_Sum": 3,
+      "Score": 0.026,
+      "Score_minus_conf": 0.0633,
+      "Confidence": 0.4109
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Failure prevention or mitigation",
+      "Tactic_Sum": 3,
+      "Score": 0.026,
+      "Score_minus_conf": 0.0633,
+      "Confidence": 0.4109
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Pretraining",
+      "Tactic_Sum": 3,
+      "Score": 0.026,
+      "Score_minus_conf": 0.0633,
+      "Confidence": 0.4109
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Out-of-distribution detection",
+      "Tactic_Sum": 3,
+      "Score": 0.026,
+      "Score_minus_conf": 0.0633,
+      "Confidence": 0.4109
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Width adjustment",
+      "Tactic_Sum": 15,
+      "Score": 0.026,
+      "Score_minus_conf": 0.0294,
+      "Confidence": 0.8829
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Specific model type selection",
+      "Tactic_Sum": 4,
+      "Score": 0.0259,
+      "Score_minus_conf": 0.0366,
+      "Confidence": 0.7075
+    },
+    {
+      "QualityAttribute": "Safety",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Closed-loop learning",
+      "Tactic_Sum": 6,
+      "Score": 0.0256,
+      "Score_minus_conf": 0.0611,
+      "Confidence": 0.4182
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Multi-model of different models",
+      "Tactic_Sum": 6,
+      "Score": 0.0256,
+      "Score_minus_conf": 0.0611,
+      "Confidence": 0.4182
+    },
+    {
+      "QualityAttribute": "Physically small",
+      "QualityAttribute_Sum": 2,
+      "Tactic": "Quantization",
+      "Tactic_Sum": 40,
+      "Score": 0.0252,
+      "Score_minus_conf": 0.0561,
+      "Confidence": 0.4491
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "On-device local training",
+      "Tactic_Sum": 3,
+      "Score": 0.0248,
+      "Score_minus_conf": 0.0594,
+      "Confidence": 0.4182
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Containerization",
+      "Tactic_Sum": 3,
+      "Score": 0.0248,
+      "Score_minus_conf": 0.0594,
+      "Confidence": 0.4182
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Deployment pipeline creation",
+      "Tactic_Sum": 3,
+      "Score": 0.0248,
+      "Score_minus_conf": 0.0594,
+      "Confidence": 0.4182
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Integer-only operations",
+      "Tactic_Sum": 11,
+      "Score": 0.0245,
+      "Score_minus_conf": 0.027,
+      "Confidence": 0.9076
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "Quantization",
+      "Tactic_Sum": 40,
+      "Score": 0.0242,
+      "Score_minus_conf": 0.0305,
+      "Confidence": 0.7935
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "Architecture design through math. optimization",
+      "Tactic_Sum": 5,
+      "Score": 0.0238,
+      "Score_minus_conf": 0.0558,
+      "Confidence": 0.4275
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "Transfer learning",
+      "Tactic_Sum": 5,
+      "Score": 0.0238,
+      "Score_minus_conf": 0.0558,
+      "Confidence": 0.4275
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Training loss function selection or adaptation",
+      "Tactic_Sum": 5,
+      "Score": 0.0234,
+      "Score_minus_conf": 0.0329,
+      "Confidence": 0.7101
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Regularization training",
+      "Tactic_Sum": 8,
+      "Score": 0.0233,
+      "Score_minus_conf": 0.0295,
+      "Confidence": 0.7912
+    },
+    {
+      "QualityAttribute": "Reliability",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Sensor or input data fusion",
+      "Tactic_Sum": 5,
+      "Score": 0.0221,
+      "Score_minus_conf": 0.0503,
+      "Confidence": 0.4386
+    },
+    {
+      "QualityAttribute": "Reliability",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Heuristics-driven augmentation",
+      "Tactic_Sum": 5,
+      "Score": 0.0221,
+      "Score_minus_conf": 0.0503,
+      "Confidence": 0.4386
+    },
+    {
+      "QualityAttribute": "Performance Efficiency",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "New or specific layer module",
+      "Tactic_Sum": 5,
+      "Score": 0.0221,
+      "Score_minus_conf": 0.0503,
+      "Confidence": 0.4386
+    },
+    {
+      "QualityAttribute": "Performance Efficiency",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Mixed-precision compression",
+      "Tactic_Sum": 5,
+      "Score": 0.0221,
+      "Score_minus_conf": 0.0503,
+      "Confidence": 0.4386
+    },
+    {
+      "QualityAttribute": "Reliability",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "TPU SoC or Accelerator Hardware ",
+      "Tactic_Sum": 5,
+      "Score": 0.0221,
+      "Score_minus_conf": 0.0503,
+      "Confidence": 0.4386
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Competing models ",
+      "Tactic_Sum": 1,
+      "Score": 0.0219,
+      "Score_minus_conf": 0.0515,
+      "Confidence": 0.4252
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Input contrast improvement",
+      "Tactic_Sum": 1,
+      "Score": 0.0219,
+      "Score_minus_conf": 0.0515,
+      "Confidence": 0.4252
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Weight averaging",
+      "Tactic_Sum": 1,
+      "Score": 0.0219,
+      "Score_minus_conf": 0.0515,
+      "Confidence": 0.4252
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Continous learning",
+      "Tactic_Sum": 1,
+      "Score": 0.0219,
+      "Score_minus_conf": 0.0515,
+      "Confidence": 0.4252
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Imitation learning",
+      "Tactic_Sum": 1,
+      "Score": 0.0219,
+      "Score_minus_conf": 0.0515,
+      "Confidence": 0.4252
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Adversarial generation decoupling",
+      "Tactic_Sum": 1,
+      "Score": 0.0219,
+      "Score_minus_conf": 0.0515,
+      "Confidence": 0.4252
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Inclusion of wrong labeled data in training",
+      "Tactic_Sum": 1,
+      "Score": 0.0219,
+      "Score_minus_conf": 0.0515,
+      "Confidence": 0.4252
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Self-adjusted learning",
+      "Tactic_Sum": 1,
+      "Score": 0.0219,
+      "Score_minus_conf": 0.0515,
+      "Confidence": 0.4252
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Suppress redundant channel activations",
+      "Tactic_Sum": 1,
+      "Score": 0.0219,
+      "Score_minus_conf": 0.0515,
+      "Confidence": 0.4252
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Contrastive representation learning",
+      "Tactic_Sum": 1,
+      "Score": 0.0219,
+      "Score_minus_conf": 0.0515,
+      "Confidence": 0.4252
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Training loss early stopping",
+      "Tactic_Sum": 1,
+      "Score": 0.0219,
+      "Score_minus_conf": 0.0515,
+      "Confidence": 0.4252
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Post-hoc uncertainty calibration ",
+      "Tactic_Sum": 1,
+      "Score": 0.0219,
+      "Score_minus_conf": 0.0515,
+      "Confidence": 0.4252
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Single task assignment",
+      "Tactic_Sum": 1,
+      "Score": 0.0219,
+      "Score_minus_conf": 0.0515,
+      "Confidence": 0.4252
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Multiscale feature processing architectures",
+      "Tactic_Sum": 1,
+      "Score": 0.0219,
+      "Score_minus_conf": 0.0515,
+      "Confidence": 0.4252
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Straggler mitigation",
+      "Tactic_Sum": 1,
+      "Score": 0.0219,
+      "Score_minus_conf": 0.0515,
+      "Confidence": 0.4252
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Prediction combination of multi-models",
+      "Tactic_Sum": 1,
+      "Score": 0.0219,
+      "Score_minus_conf": 0.0515,
+      "Confidence": 0.4252
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Sequential input fusion",
+      "Tactic_Sum": 1,
+      "Score": 0.0219,
+      "Score_minus_conf": 0.0515,
+      "Confidence": 0.4252
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Data-driven augmentations",
+      "Tactic_Sum": 1,
+      "Score": 0.0219,
+      "Score_minus_conf": 0.0515,
+      "Confidence": 0.4252
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Weight initialization random",
+      "Tactic_Sum": 1,
+      "Score": 0.0219,
+      "Score_minus_conf": 0.0515,
+      "Confidence": 0.4252
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Adaptive batching",
+      "Tactic_Sum": 1,
+      "Score": 0.0219,
+      "Score_minus_conf": 0.0515,
+      "Confidence": 0.4252
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Decision smoothing",
+      "Tactic_Sum": 1,
+      "Score": 0.0219,
+      "Score_minus_conf": 0.0515,
+      "Confidence": 0.4252
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Last stage reduction",
+      "Tactic_Sum": 1,
+      "Score": 0.0219,
+      "Score_minus_conf": 0.0515,
+      "Confidence": 0.4252
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Kernel regularization",
+      "Tactic_Sum": 1,
+      "Score": 0.0219,
+      "Score_minus_conf": 0.0515,
+      "Confidence": 0.4252
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Smaller computation datatype",
+      "Tactic_Sum": 7,
+      "Score": 0.0217,
+      "Score_minus_conf": 0.049,
+      "Confidence": 0.4429
+    },
+    {
+      "QualityAttribute": "Training performance efficiency",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Smaller computation datatype",
+      "Tactic_Sum": 7,
+      "Score": 0.0217,
+      "Score_minus_conf": 0.049,
+      "Confidence": 0.4429
+    },
+    {
+      "QualityAttribute": "Training performance efficiency",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Regularization",
+      "Tactic_Sum": 7,
+      "Score": 0.0217,
+      "Score_minus_conf": 0.049,
+      "Confidence": 0.4429
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Hardware and Software codesign",
+      "Tactic_Sum": 8,
+      "Score": 0.0202,
+      "Score_minus_conf": 0.0233,
+      "Confidence": 0.8688
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "Tensor or matrix decomposition",
+      "Tactic_Sum": 6,
+      "Score": 0.0193,
+      "Score_minus_conf": 0.0422,
+      "Confidence": 0.4572
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Specific model type selection",
+      "Tactic_Sum": 4,
+      "Score": 0.0189,
+      "Score_minus_conf": 0.0414,
+      "Confidence": 0.4572
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Fault tolerant training",
+      "Tactic_Sum": 4,
+      "Score": 0.0189,
+      "Score_minus_conf": 0.0414,
+      "Confidence": 0.4572
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Retraining for fine tuning",
+      "Tactic_Sum": 4,
+      "Score": 0.0189,
+      "Score_minus_conf": 0.0414,
+      "Confidence": 0.4572
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Hardware and Software codesign",
+      "Tactic_Sum": 8,
+      "Score": 0.0184,
+      "Score_minus_conf": 0.0395,
+      "Confidence": 0.4649
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Tenary weights",
+      "Tactic_Sum": 4,
+      "Score": 0.0177,
+      "Score_minus_conf": 0.0381,
+      "Confidence": 0.4649
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Retraining for fine tuning",
+      "Tactic_Sum": 4,
+      "Score": 0.0177,
+      "Score_minus_conf": 0.0381,
+      "Confidence": 0.4649
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Edge compute hardware",
+      "Tactic_Sum": 4,
+      "Score": 0.0177,
+      "Score_minus_conf": 0.0381,
+      "Confidence": 0.4649
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "End-to-end learning",
+      "Tactic_Sum": 4,
+      "Score": 0.0177,
+      "Score_minus_conf": 0.0381,
+      "Confidence": 0.4649
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Task-level parallelism on CNN layer-level",
+      "Tactic_Sum": 9,
+      "Score": 0.0175,
+      "Score_minus_conf": 0.0208,
+      "Confidence": 0.8418
+    },
+    {
+      "QualityAttribute": "Reliability",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Multi-model of different models",
+      "Tactic_Sum": 6,
+      "Score": 0.0175,
+      "Score_minus_conf": 0.0374,
+      "Confidence": 0.4687
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Training optimization algorithm selection or adaptation",
+      "Tactic_Sum": 11,
+      "Score": 0.0172,
+      "Score_minus_conf": 0.0204,
+      "Confidence": 0.8407
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Destillation learning",
+      "Tactic_Sum": 11,
+      "Score": 0.0164,
+      "Score_minus_conf": 0.018,
+      "Confidence": 0.9094
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Model pool for deployment",
+      "Tactic_Sum": 1,
+      "Score": 0.0163,
+      "Score_minus_conf": 0.0356,
+      "Confidence": 0.4592
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Sensor ring architecture",
+      "Tactic_Sum": 1,
+      "Score": 0.0163,
+      "Score_minus_conf": 0.0356,
+      "Confidence": 0.4592
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Single task assignment",
+      "Tactic_Sum": 1,
+      "Score": 0.0163,
+      "Score_minus_conf": 0.0356,
+      "Confidence": 0.4592
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Later local processing of encoded features",
+      "Tactic_Sum": 1,
+      "Score": 0.0163,
+      "Score_minus_conf": 0.0356,
+      "Confidence": 0.4592
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Matrix-multiplication optimization",
+      "Tactic_Sum": 1,
+      "Score": 0.0163,
+      "Score_minus_conf": 0.0356,
+      "Confidence": 0.4592
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Event-based processing",
+      "Tactic_Sum": 1,
+      "Score": 0.0163,
+      "Score_minus_conf": 0.0356,
+      "Confidence": 0.4592
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Straggler mitigation",
+      "Tactic_Sum": 1,
+      "Score": 0.0163,
+      "Score_minus_conf": 0.0356,
+      "Confidence": 0.4592
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Cache preloading",
+      "Tactic_Sum": 1,
+      "Score": 0.0163,
+      "Score_minus_conf": 0.0356,
+      "Confidence": 0.4592
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Policy conversion",
+      "Tactic_Sum": 1,
+      "Score": 0.0163,
+      "Score_minus_conf": 0.0356,
+      "Confidence": 0.4592
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Post-hoc uncertainty calibration ",
+      "Tactic_Sum": 1,
+      "Score": 0.0163,
+      "Score_minus_conf": 0.0356,
+      "Confidence": 0.4592
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "High-level synthesis",
+      "Tactic_Sum": 1,
+      "Score": 0.0163,
+      "Score_minus_conf": 0.0356,
+      "Confidence": 0.4592
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Cloud compression and edge reconstruction",
+      "Tactic_Sum": 1,
+      "Score": 0.0163,
+      "Score_minus_conf": 0.0356,
+      "Confidence": 0.4592
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Relevant content caching",
+      "Tactic_Sum": 1,
+      "Score": 0.0163,
+      "Score_minus_conf": 0.0356,
+      "Confidence": 0.4592
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Sliding Window",
+      "Tactic_Sum": 1,
+      "Score": 0.0163,
+      "Score_minus_conf": 0.0356,
+      "Confidence": 0.4592
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Prediction combination of multi-models",
+      "Tactic_Sum": 1,
+      "Score": 0.0163,
+      "Score_minus_conf": 0.0356,
+      "Confidence": 0.4592
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Competing models ",
+      "Tactic_Sum": 1,
+      "Score": 0.0163,
+      "Score_minus_conf": 0.0356,
+      "Confidence": 0.4592
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Adaptive batching",
+      "Tactic_Sum": 1,
+      "Score": 0.0163,
+      "Score_minus_conf": 0.0356,
+      "Confidence": 0.4592
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Adaptive model scheduling",
+      "Tactic_Sum": 1,
+      "Score": 0.0163,
+      "Score_minus_conf": 0.0356,
+      "Confidence": 0.4592
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Node masking",
+      "Tactic_Sum": 1,
+      "Score": 0.0163,
+      "Score_minus_conf": 0.0356,
+      "Confidence": 0.4592
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Model fusion",
+      "Tactic_Sum": 1,
+      "Score": 0.0163,
+      "Score_minus_conf": 0.0356,
+      "Confidence": 0.4592
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Weight grouping",
+      "Tactic_Sum": 1,
+      "Score": 0.0163,
+      "Score_minus_conf": 0.0356,
+      "Confidence": 0.4592
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Binary and ternary weights training",
+      "Tactic_Sum": 1,
+      "Score": 0.0163,
+      "Score_minus_conf": 0.0356,
+      "Confidence": 0.4592
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Ablation",
+      "Tactic_Sum": 1,
+      "Score": 0.0163,
+      "Score_minus_conf": 0.0356,
+      "Confidence": 0.4592
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Imitation learning",
+      "Tactic_Sum": 1,
+      "Score": 0.0163,
+      "Score_minus_conf": 0.0356,
+      "Confidence": 0.4592
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Convolution unfolding",
+      "Tactic_Sum": 1,
+      "Score": 0.0163,
+      "Score_minus_conf": 0.0356,
+      "Confidence": 0.4592
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Signal overwriting",
+      "Tactic_Sum": 1,
+      "Score": 0.0163,
+      "Score_minus_conf": 0.0356,
+      "Confidence": 0.4592
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Huffman coding",
+      "Tactic_Sum": 1,
+      "Score": 0.0163,
+      "Score_minus_conf": 0.0356,
+      "Confidence": 0.4592
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Mixed-precision compression",
+      "Tactic_Sum": 5,
+      "Score": 0.0162,
+      "Score_minus_conf": 0.0203,
+      "Confidence": 0.7992
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Training loss function selection or adaptation",
+      "Tactic_Sum": 5,
+      "Score": 0.0162,
+      "Score_minus_conf": 0.0203,
+      "Confidence": 0.7992
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "New or specific layer module",
+      "Tactic_Sum": 5,
+      "Score": 0.0162,
+      "Score_minus_conf": 0.0203,
+      "Confidence": 0.7992
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "Regularization",
+      "Tactic_Sum": 7,
+      "Score": 0.0155,
+      "Score_minus_conf": 0.032,
+      "Confidence": 0.4831
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "Concurrent processing hardware",
+      "Tactic_Sum": 7,
+      "Score": 0.0155,
+      "Score_minus_conf": 0.032,
+      "Confidence": 0.4831
+    },
+    {
+      "QualityAttribute": "Safety",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Task-level parallelism on CNN layer-level",
+      "Tactic_Sum": 9,
+      "Score": 0.0154,
+      "Score_minus_conf": 0.0318,
+      "Confidence": 0.4849
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Network partitioning",
+      "Tactic_Sum": 9,
+      "Score": 0.0154,
+      "Score_minus_conf": 0.0318,
+      "Confidence": 0.4849
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Neural architecture search",
+      "Tactic_Sum": 10,
+      "Score": 0.0148,
+      "Score_minus_conf": 0.0165,
+      "Confidence": 0.8967
+    },
+    {
+      "QualityAttribute": "Reliability",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Smaller computation datatype",
+      "Tactic_Sum": 7,
+      "Score": 0.0137,
+      "Score_minus_conf": 0.0277,
+      "Confidence": 0.495
+    },
+    {
+      "QualityAttribute": "Reliability",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Concurrent processing hardware",
+      "Tactic_Sum": 7,
+      "Score": 0.0137,
+      "Score_minus_conf": 0.0277,
+      "Confidence": 0.495
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Finetuning ",
+      "Tactic_Sum": 10,
+      "Score": 0.0137,
+      "Score_minus_conf": 0.0152,
+      "Confidence": 0.8987
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Heuristics-driven augmentation",
+      "Tactic_Sum": 5,
+      "Score": 0.0135,
+      "Score_minus_conf": 0.0272,
+      "Confidence": 0.495
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Meta-learning",
+      "Tactic_Sum": 10,
+      "Score": 0.0128,
+      "Score_minus_conf": 0.0255,
+      "Confidence": 0.503
+    },
+    {
+      "QualityAttribute": "Training performance efficiency",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Sparsification",
+      "Tactic_Sum": 10,
+      "Score": 0.0128,
+      "Score_minus_conf": 0.0255,
+      "Confidence": 0.503
+    },
+    {
+      "QualityAttribute": "Training performance efficiency",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Finetuning ",
+      "Tactic_Sum": 10,
+      "Score": 0.0128,
+      "Score_minus_conf": 0.0255,
+      "Confidence": 0.503
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Sparsification",
+      "Tactic_Sum": 10,
+      "Score": 0.0128,
+      "Score_minus_conf": 0.0255,
+      "Confidence": 0.503
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Depthwise-separable convolution layers",
+      "Tactic_Sum": 2,
+      "Score": 0.0127,
+      "Score_minus_conf": 0.0199,
+      "Confidence": 0.6378
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Architecture design optimization with reinforcement learning",
+      "Tactic_Sum": 2,
+      "Score": 0.0127,
+      "Score_minus_conf": 0.0199,
+      "Confidence": 0.6378
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "On-chip weight caching",
+      "Tactic_Sum": 2,
+      "Score": 0.0127,
+      "Score_minus_conf": 0.0199,
+      "Confidence": 0.6378
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Deadline-aware scheduling",
+      "Tactic_Sum": 2,
+      "Score": 0.0127,
+      "Score_minus_conf": 0.0199,
+      "Confidence": 0.6378
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Additional side branches with uncertainty measures",
+      "Tactic_Sum": 2,
+      "Score": 0.0127,
+      "Score_minus_conf": 0.0199,
+      "Confidence": 0.6378
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Adapter module",
+      "Tactic_Sum": 2,
+      "Score": 0.0127,
+      "Score_minus_conf": 0.0199,
+      "Confidence": 0.6378
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Memory scheduling",
+      "Tactic_Sum": 2,
+      "Score": 0.0127,
+      "Score_minus_conf": 0.0199,
+      "Confidence": 0.6378
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Separation of convolutional kernels",
+      "Tactic_Sum": 2,
+      "Score": 0.0127,
+      "Score_minus_conf": 0.0199,
+      "Confidence": 0.6378
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Parameter amount reduction",
+      "Tactic_Sum": 2,
+      "Score": 0.0127,
+      "Score_minus_conf": 0.0199,
+      "Confidence": 0.6378
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Robust feature extraction",
+      "Tactic_Sum": 2,
+      "Score": 0.0127,
+      "Score_minus_conf": 0.0199,
+      "Confidence": 0.6378
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Concurrent processing hardware",
+      "Tactic_Sum": 7,
+      "Score": 0.0126,
+      "Score_minus_conf": 0.0157,
+      "Confidence": 0.8033
+    },
+    {
+      "QualityAttribute": "Indenpendency/Autonomy",
+      "QualityAttribute_Sum": 5,
+      "Tactic": "Pruning",
+      "Tactic_Sum": 23,
+      "Score": 0.0125,
+      "Score_minus_conf": 0.0245,
+      "Confidence": 0.5108
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Parameter amount reduction",
+      "Tactic_Sum": 2,
+      "Score": 0.0124,
+      "Score_minus_conf": 0.0194,
+      "Confidence": 0.6409
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Sensor duty cycle",
+      "Tactic_Sum": 2,
+      "Score": 0.0124,
+      "Score_minus_conf": 0.0194,
+      "Confidence": 0.6409
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "On-chip weight caching",
+      "Tactic_Sum": 2,
+      "Score": 0.0124,
+      "Score_minus_conf": 0.0194,
+      "Confidence": 0.6409
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Separation of convolutional kernels",
+      "Tactic_Sum": 2,
+      "Score": 0.0124,
+      "Score_minus_conf": 0.0194,
+      "Confidence": 0.6409
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Depthwise-separable convolution layers",
+      "Tactic_Sum": 2,
+      "Score": 0.0124,
+      "Score_minus_conf": 0.0194,
+      "Confidence": 0.6409
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Architecture design optimization with reinforcement learning",
+      "Tactic_Sum": 2,
+      "Score": 0.0124,
+      "Score_minus_conf": 0.0194,
+      "Confidence": 0.6409
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Frame rate reduction",
+      "Tactic_Sum": 2,
+      "Score": 0.0124,
+      "Score_minus_conf": 0.0194,
+      "Confidence": 0.6409
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Incremental training with sensor data",
+      "Tactic_Sum": 2,
+      "Score": 0.0124,
+      "Score_minus_conf": 0.0194,
+      "Confidence": 0.6409
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Bottleneck module",
+      "Tactic_Sum": 2,
+      "Score": 0.0124,
+      "Score_minus_conf": 0.0194,
+      "Confidence": 0.6409
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Memory scheduling",
+      "Tactic_Sum": 2,
+      "Score": 0.0124,
+      "Score_minus_conf": 0.0194,
+      "Confidence": 0.6409
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Mixed-precision compression",
+      "Tactic_Sum": 5,
+      "Score": 0.0123,
+      "Score_minus_conf": 0.0245,
+      "Confidence": 0.503
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Transfer learning",
+      "Tactic_Sum": 5,
+      "Score": 0.0123,
+      "Score_minus_conf": 0.0245,
+      "Confidence": 0.503
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Ternary weights and activations 2-bit",
+      "Tactic_Sum": 5,
+      "Score": 0.0123,
+      "Score_minus_conf": 0.0245,
+      "Confidence": 0.503
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "TPU SoC or Accelerator Hardware ",
+      "Tactic_Sum": 5,
+      "Score": 0.0123,
+      "Score_minus_conf": 0.0245,
+      "Confidence": 0.503
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Pruning",
+      "Tactic_Sum": 23,
+      "Score": 0.0117,
+      "Score_minus_conf": 0.0123,
+      "Confidence": 0.9475
+    },
+    {
+      "QualityAttribute": "Safety",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Destillation learning",
+      "Tactic_Sum": 11,
+      "Score": 0.0106,
+      "Score_minus_conf": 0.0204,
+      "Confidence": 0.5197
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "External computational offloading",
+      "Tactic_Sum": 11,
+      "Score": 0.0106,
+      "Score_minus_conf": 0.0204,
+      "Confidence": 0.5197
+    },
+    {
+      "QualityAttribute": "Performance Efficiency",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Hardware and Software codesign",
+      "Tactic_Sum": 8,
+      "Score": 0.0106,
+      "Score_minus_conf": 0.0204,
+      "Confidence": 0.5182
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Regularization",
+      "Tactic_Sum": 7,
+      "Score": 0.0105,
+      "Score_minus_conf": 0.0123,
+      "Confidence": 0.8504
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Smaller computation datatype",
+      "Tactic_Sum": 7,
+      "Score": 0.0098,
+      "Score_minus_conf": 0.0115,
+      "Confidence": 0.8528
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "Network partitioning",
+      "Tactic_Sum": 9,
+      "Score": 0.0095,
+      "Score_minus_conf": 0.0181,
+      "Confidence": 0.5268
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Multi-model of different models",
+      "Tactic_Sum": 6,
+      "Score": 0.0093,
+      "Score_minus_conf": 0.0176,
+      "Confidence": 0.5268
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Network combination",
+      "Tactic_Sum": 3,
+      "Score": 0.009,
+      "Score_minus_conf": 0.0138,
+      "Confidence": 0.6551
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Deployment pipeline creation",
+      "Tactic_Sum": 3,
+      "Score": 0.009,
+      "Score_minus_conf": 0.0138,
+      "Confidence": 0.6551
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Containerization",
+      "Tactic_Sum": 3,
+      "Score": 0.009,
+      "Score_minus_conf": 0.0138,
+      "Confidence": 0.6551
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Feature encoding",
+      "Tactic_Sum": 3,
+      "Score": 0.009,
+      "Score_minus_conf": 0.0138,
+      "Confidence": 0.6551
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "On-device local training",
+      "Tactic_Sum": 3,
+      "Score": 0.009,
+      "Score_minus_conf": 0.0138,
+      "Confidence": 0.6551
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Quantization-aware retraining",
+      "Tactic_Sum": 3,
+      "Score": 0.009,
+      "Score_minus_conf": 0.0138,
+      "Confidence": 0.6551
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Quantization-aware training",
+      "Tactic_Sum": 3,
+      "Score": 0.009,
+      "Score_minus_conf": 0.0138,
+      "Confidence": 0.6551
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Internal computation balancing",
+      "Tactic_Sum": 3,
+      "Score": 0.009,
+      "Score_minus_conf": 0.0138,
+      "Confidence": 0.6551
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Binary weights and activations",
+      "Tactic_Sum": 6,
+      "Score": 0.0083,
+      "Score_minus_conf": 0.0154,
+      "Confidence": 0.5351
+    },
+    {
+      "QualityAttribute": "Security",
+      "QualityAttribute_Sum": 6,
+      "Tactic": "Pruning",
+      "Tactic_Sum": 23,
+      "Score": 0.008,
+      "Score_minus_conf": 0.0148,
+      "Confidence": 0.543
+    },
+    {
+      "QualityAttribute": "Performance Efficiency",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Network partitioning",
+      "Tactic_Sum": 9,
+      "Score": 0.008,
+      "Score_minus_conf": 0.0148,
+      "Confidence": 0.5391
+    },
+    {
+      "QualityAttribute": "Reliability",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Task-level parallelism on CNN layer-level",
+      "Tactic_Sum": 9,
+      "Score": 0.008,
+      "Score_minus_conf": 0.0148,
+      "Confidence": 0.5391
+    },
+    {
+      "QualityAttribute": "Reliability",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Network partitioning",
+      "Tactic_Sum": 9,
+      "Score": 0.008,
+      "Score_minus_conf": 0.0148,
+      "Confidence": 0.5391
+    },
+    {
+      "QualityAttribute": "Flexibility",
+      "QualityAttribute_Sum": 7,
+      "Tactic": "Quantization",
+      "Tactic_Sum": 40,
+      "Score": 0.0077,
+      "Score_minus_conf": 0.0114,
+      "Confidence": 0.6723
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Finetuning ",
+      "Tactic_Sum": 10,
+      "Score": 0.0072,
+      "Score_minus_conf": 0.0084,
+      "Confidence": 0.8568
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Specific model type selection",
+      "Tactic_Sum": 4,
+      "Score": 0.0071,
+      "Score_minus_conf": 0.0106,
+      "Confidence": 0.6696
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Few-shot learning",
+      "Tactic_Sum": 4,
+      "Score": 0.0071,
+      "Score_minus_conf": 0.0106,
+      "Confidence": 0.6696
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "End-to-end learning",
+      "Tactic_Sum": 4,
+      "Score": 0.0071,
+      "Score_minus_conf": 0.0106,
+      "Confidence": 0.6696
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Modular system design",
+      "Tactic_Sum": 2,
+      "Score": 0.0064,
+      "Score_minus_conf": 0.0119,
+      "Confidence": 0.543
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Label smooting",
+      "Tactic_Sum": 2,
+      "Score": 0.0064,
+      "Score_minus_conf": 0.0119,
+      "Confidence": 0.543
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Depthwise-separable convolution layers",
+      "Tactic_Sum": 2,
+      "Score": 0.0064,
+      "Score_minus_conf": 0.0119,
+      "Confidence": 0.543
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Prediction/intermediate result caching",
+      "Tactic_Sum": 2,
+      "Score": 0.0064,
+      "Score_minus_conf": 0.0119,
+      "Confidence": 0.543
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Tuner and meta-tuner blocks",
+      "Tactic_Sum": 2,
+      "Score": 0.0064,
+      "Score_minus_conf": 0.0119,
+      "Confidence": 0.543
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Parameter amount reduction",
+      "Tactic_Sum": 2,
+      "Score": 0.0064,
+      "Score_minus_conf": 0.0119,
+      "Confidence": 0.543
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Training with gradient noise",
+      "Tactic_Sum": 2,
+      "Score": 0.0064,
+      "Score_minus_conf": 0.0119,
+      "Confidence": 0.543
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Incremental training with sensor data",
+      "Tactic_Sum": 2,
+      "Score": 0.0064,
+      "Score_minus_conf": 0.0119,
+      "Confidence": 0.543
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Adapter module",
+      "Tactic_Sum": 2,
+      "Score": 0.0064,
+      "Score_minus_conf": 0.0119,
+      "Confidence": 0.543
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Regularization",
+      "Tactic_Sum": 7,
+      "Score": 0.0061,
+      "Score_minus_conf": 0.011,
+      "Confidence": 0.5544
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Retraining for fine tuning",
+      "Tactic_Sum": 4,
+      "Score": 0.006,
+      "Score_minus_conf": 0.0078,
+      "Confidence": 0.7621
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Activation function selection",
+      "Tactic_Sum": 4,
+      "Score": 0.006,
+      "Score_minus_conf": 0.0078,
+      "Confidence": 0.7621
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Edge compute hardware",
+      "Tactic_Sum": 4,
+      "Score": 0.006,
+      "Score_minus_conf": 0.0078,
+      "Confidence": 0.7621
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "ADMM-based compression",
+      "Tactic_Sum": 4,
+      "Score": 0.006,
+      "Score_minus_conf": 0.0078,
+      "Confidence": 0.7621
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Early-exit inference",
+      "Tactic_Sum": 4,
+      "Score": 0.006,
+      "Score_minus_conf": 0.0078,
+      "Confidence": 0.7621
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Quantization",
+      "Tactic_Sum": 40,
+      "Score": 0.006,
+      "Score_minus_conf": 0.0069,
+      "Confidence": 0.8616
+    },
+    {
+      "QualityAttribute": "Reliability",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Meta-learning",
+      "Tactic_Sum": 10,
+      "Score": 0.0058,
+      "Score_minus_conf": 0.0104,
+      "Confidence": 0.558
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Activation function selection",
+      "Tactic_Sum": 4,
+      "Score": 0.0057,
+      "Score_minus_conf": 0.0074,
+      "Confidence": 0.765
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Edge compute hardware",
+      "Tactic_Sum": 4,
+      "Score": 0.0057,
+      "Score_minus_conf": 0.0074,
+      "Confidence": 0.765
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Retraining for fine tuning",
+      "Tactic_Sum": 4,
+      "Score": 0.0057,
+      "Score_minus_conf": 0.0074,
+      "Confidence": 0.765
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Simultaneous memory loading",
+      "Tactic_Sum": 4,
+      "Score": 0.0057,
+      "Score_minus_conf": 0.0074,
+      "Confidence": 0.765
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Destillation learning",
+      "Tactic_Sum": 11,
+      "Score": 0.0055,
+      "Score_minus_conf": 0.006,
+      "Confidence": 0.9076
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "Integer-only operations",
+      "Tactic_Sum": 11,
+      "Score": 0.0053,
+      "Score_minus_conf": 0.0095,
+      "Confidence": 0.5628
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "Training optimization algorithm selection or adaptation",
+      "Tactic_Sum": 11,
+      "Score": 0.0053,
+      "Score_minus_conf": 0.0095,
+      "Confidence": 0.5628
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Concurrent processing hardware",
+      "Tactic_Sum": 7,
+      "Score": 0.0052,
+      "Score_minus_conf": 0.0092,
+      "Confidence": 0.5628
+    },
+    {
+      "QualityAttribute": "Reliability",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Training optimization algorithm selection or adaptation",
+      "Tactic_Sum": 11,
+      "Score": 0.004,
+      "Score_minus_conf": 0.007,
+      "Confidence": 0.5753
+    },
+    {
+      "QualityAttribute": "Reliability",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Destillation learning",
+      "Tactic_Sum": 11,
+      "Score": 0.004,
+      "Score_minus_conf": 0.007,
+      "Confidence": 0.5753
+    },
+    {
+      "QualityAttribute": "Security",
+      "QualityAttribute_Sum": 6,
+      "Tactic": "Adversarial training",
+      "Tactic_Sum": 28,
+      "Score": 0.004,
+      "Score_minus_conf": 0.0069,
+      "Confidence": 0.5786
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Tensor or matrix decomposition",
+      "Tactic_Sum": 6,
+      "Score": 0.0035,
+      "Score_minus_conf": 0.0043,
+      "Confidence": 0.8277
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Closed-loop learning",
+      "Tactic_Sum": 6,
+      "Score": 0.0035,
+      "Score_minus_conf": 0.0043,
+      "Confidence": 0.8277
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Retraining for fine tuning",
+      "Tactic_Sum": 4,
+      "Score": 0.0035,
+      "Score_minus_conf": 0.0049,
+      "Confidence": 0.7075
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "End-to-end learning",
+      "Tactic_Sum": 4,
+      "Score": 0.0035,
+      "Score_minus_conf": 0.0049,
+      "Confidence": 0.7075
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Hardware and Software codesign",
+      "Tactic_Sum": 8,
+      "Score": 0.0029,
+      "Score_minus_conf": 0.0049,
+      "Confidence": 0.5871
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Regularization training",
+      "Tactic_Sum": 8,
+      "Score": 0.0023,
+      "Score_minus_conf": 0.0027,
+      "Confidence": 0.8688
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Destillation learning",
+      "Tactic_Sum": 11,
+      "Score": 0.0019,
+      "Score_minus_conf": 0.0022,
+      "Confidence": 0.8698
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Meta-learning",
+      "Tactic_Sum": 10,
+      "Score": 0.0016,
+      "Score_minus_conf": 0.0018,
+      "Confidence": 0.8967
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Finetuning ",
+      "Tactic_Sum": 10,
+      "Score": 0.0016,
+      "Score_minus_conf": 0.0018,
+      "Confidence": 0.8967
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Neural architecture search",
+      "Tactic_Sum": 10,
+      "Score": 0.0014,
+      "Score_minus_conf": 0.0015,
+      "Confidence": 0.8987
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Event-based processing",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5153
+    },
+    {
+      "QualityAttribute": "Reliability",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Quantization",
+      "Tactic_Sum": 40,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.8047
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Adapter module",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6409
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Architecture design through math. optimization",
+      "Tactic_Sum": 5,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.802
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Layer fusion",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5153
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Convolution unfolding",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5153
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Feature encoding",
+      "Tactic_Sum": 3,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.7147
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Data-level parallelsim in CNN layer",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5153
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Model format conversion",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6409
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Policy conversion",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5153
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Continous learning",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Ablation",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Relevant content caching",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5153
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Light communication protocol usage",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5153
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Training with uncertainty measures",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Heuristics-driven augmentation",
+      "Tactic_Sum": 5,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.7992
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Single task assignment",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5153
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Prediction/intermediate result caching",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6409
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Partial layer execution",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5807
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Simultaneous memory loading",
+      "Tactic_Sum": 4,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.7075
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Test time adaption",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5807
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Finetuning ",
+      "Tactic_Sum": 10,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.8264
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Matrix reusing",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5153
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Retraining for fine tuning",
+      "Tactic_Sum": 4,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6696
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Few-shot learning",
+      "Tactic_Sum": 4,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.765
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Imitation learning",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5153
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Specific model type selection",
+      "Tactic_Sum": 4,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.765
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "TPU SoC or Accelerator Hardware ",
+      "Tactic_Sum": 5,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.802
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Sensor ring architecture",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5153
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Training with unlabed data",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6409
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Destillation learning",
+      "Tactic_Sum": 11,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.8407
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Meta-learning",
+      "Tactic_Sum": 10,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.8264
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Closed-loop learning",
+      "Tactic_Sum": 6,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.7424
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Library Encapsulation",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5153
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Frame rate reduction",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6378
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Input modification",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6378
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Denoising",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6378
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Sliding Window",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Transfer learning",
+      "Tactic_Sum": 5,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.7101
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Robust feature extraction",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6409
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Contrastive representation learning",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5153
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Regularization training",
+      "Tactic_Sum": 8,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.871
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Additional side branches with uncertainty measures",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6409
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Training with gradient noise",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6409
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Label smooting",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6409
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Training loss early stopping",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Contrastive representation learning",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Training optimization algorithm selection or adaptation",
+      "Tactic_Sum": 11,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.9076
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Standard training on fully labeled datasets",
+      "Tactic_Sum": 3,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.7117
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Kernel regularization",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Quantization",
+      "Tactic_Sum": 40,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.753
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Model fusion",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5153
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Tuner and meta-tuner blocks",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6409
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Input spatial partitioning",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5153
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Signal overwriting",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5153
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Sensor or input data fusion",
+      "Tactic_Sum": 5,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.802
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Input resolution adjustment",
+      "Tactic_Sum": 3,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.7147
+    },
+    {
+      "QualityAttribute": "Fault tolerance",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Adversarial training",
+      "Tactic_Sum": 28,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6896
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Width adjustment",
+      "Tactic_Sum": 15,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.9395
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Post-processing",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5153
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Post-training quantization",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Imitation learning",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Sensor ring architecture",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Training performance efficiency",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Pruning",
+      "Tactic_Sum": 23,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6537
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Modular system design",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6378
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Multitask Scheduling",
+      "Tactic_Sum": 3,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.7147
+    },
+    {
+      "QualityAttribute": "Interoperability",
+      "QualityAttribute_Sum": 6,
+      "Tactic": "Quantization",
+      "Tactic_Sum": 40,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.644
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Matrix-multiplication optimization",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5153
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Partial layer execution",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6409
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "High-level synthesis",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5153
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Pruning",
+      "Tactic_Sum": 23,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.7768
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Integer-only operations",
+      "Tactic_Sum": 11,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6455
+    },
+    {
+      "QualityAttribute": "Security",
+      "QualityAttribute_Sum": 6,
+      "Tactic": "Quantization",
+      "Tactic_Sum": 40,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.644
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Multitask Scheduling",
+      "Tactic_Sum": 3,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6551
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Multi-model of different models",
+      "Tactic_Sum": 6,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.7424
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "Pruning",
+      "Tactic_Sum": 23,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6977
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "On-chip weight caching",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5807
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Tuner and meta-tuner blocks",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5807
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Normalization",
+      "Tactic_Sum": 3,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6168
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Architecture design through math. optimization",
+      "Tactic_Sum": 5,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.7101
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Activation function selection",
+      "Tactic_Sum": 4,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6696
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Weight sharing",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5153
+    },
+    {
+      "QualityAttribute": "Confidentiality",
+      "QualityAttribute_Sum": 14,
+      "Tactic": "Adversarial training",
+      "Tactic_Sum": 28,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.7328
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Bottleneck module",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6378
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Mixed-precision compression",
+      "Tactic_Sum": 5,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.747
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Parameter amount reduction",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5807
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Policy conversion",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Resiliency",
+      "QualityAttribute_Sum": 8,
+      "Tactic": "Quantization",
+      "Tactic_Sum": 40,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6966
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Architecture design through math. optimization",
+      "Tactic_Sum": 5,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.7992
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Robust feature extraction",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5807
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Neural architecture search",
+      "Tactic_Sum": 10,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.8568
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Model format conversion",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5807
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Normalization",
+      "Tactic_Sum": 3,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6551
+    },
+    {
+      "QualityAttribute": "Resiliency",
+      "QualityAttribute_Sum": 8,
+      "Tactic": "Adversarial training",
+      "Tactic_Sum": 28,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6313
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Fault-map-based neuron re-mapping",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Diagonal scalar weight matrix",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5153
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Weight grouping",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5153
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Node masking",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5153
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Adapter module",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5807
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Separation of convolutional kernels",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5807
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Activation function selection",
+      "Tactic_Sum": 4,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.7075
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Architecture design through math. optimization",
+      "Tactic_Sum": 5,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.747
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Huffman coding",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5153
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Ablation",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5153
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Binary and ternary weights training",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5153
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Prediction/intermediate result caching",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6378
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Adaptive batching",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Single task assignment",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Width adjustment",
+      "Tactic_Sum": 15,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6937
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "ADMM-based compression",
+      "Tactic_Sum": 4,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.7075
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Training optimization algorithm selection or adaptation",
+      "Tactic_Sum": 11,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.637
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Partial layer execution",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6378
+    },
+    {
+      "QualityAttribute": "Performance Efficiency",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Pruning",
+      "Tactic_Sum": 23,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.7101
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Depth adjustment",
+      "Tactic_Sum": 12,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.653
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Event-based processing",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Tuner and meta-tuner blocks",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6378
+    },
+    {
+      "QualityAttribute": "Portability",
+      "QualityAttribute_Sum": 5,
+      "Tactic": "Quantization",
+      "Tactic_Sum": 40,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6105
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Sparsification",
+      "Tactic_Sum": 10,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6194
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Integer-only operations",
+      "Tactic_Sum": 11,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.637
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Post-hoc uncertainty calibration ",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Test time adaption",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6378
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Failure prevention or mitigation",
+      "Tactic_Sum": 3,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.7117
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Huffman coding",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Training with unlabed data",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6378
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Prediction combination of multi-models",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Multi-model of different models",
+      "Tactic_Sum": 6,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.8277
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Straggler mitigation",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Later local processing of encoded features",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Binary and ternary weights training",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Competing models ",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Transfer learning",
+      "Tactic_Sum": 5,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.7992
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Few-shot learning",
+      "Tactic_Sum": 4,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.7621
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Online training",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Test-time training",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Incremental training with sensor data",
+      "Tactic_Sum": 2,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.6378
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Inclusion of wrong labeled data in training",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Internal computation balancing",
+      "Tactic_Sum": 3,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.7147
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Self-supervision learning",
+      "Tactic_Sum": 3,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.7117
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Neural architecture search",
+      "Tactic_Sum": 10,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.628
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "External computational offloading",
+      "Tactic_Sum": 11,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.9094
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Coupled semantic descriptions",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5153
+    },
+    {
+      "QualityAttribute": "Capacity",
+      "QualityAttribute_Sum": 22,
+      "Tactic": "Finetuning ",
+      "Tactic_Sum": 10,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.628
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Smaller computation datatype",
+      "Tactic_Sum": 7,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.8504
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Matrix reusing",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Diagonal scalar weight matrix",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Weight sharing",
+      "Tactic_Sum": 1,
+      "Score": 0.0,
+      "Score_minus_conf": 0.0,
+      "Confidence": 0.5123
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "External computational offloading",
+      "Tactic_Sum": 11,
+      "Score": -0.0022,
+      "Score_minus_conf": -0.0024,
+      "Confidence": 0.9076
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Network partitioning",
+      "Tactic_Sum": 9,
+      "Score": -0.0026,
+      "Score_minus_conf": -0.0029,
+      "Confidence": 0.884
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Network partitioning",
+      "Tactic_Sum": 9,
+      "Score": -0.0029,
+      "Score_minus_conf": -0.0033,
+      "Confidence": 0.8861
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Concurrent processing hardware",
+      "Tactic_Sum": 7,
+      "Score": -0.0032,
+      "Score_minus_conf": -0.0038,
+      "Confidence": 0.8504
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Sparsification",
+      "Tactic_Sum": 10,
+      "Score": -0.0033,
+      "Score_minus_conf": -0.0038,
+      "Confidence": 0.8568
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Regularization",
+      "Tactic_Sum": 7,
+      "Score": -0.0035,
+      "Score_minus_conf": -0.0042,
+      "Confidence": 0.8528
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Width adjustment",
+      "Tactic_Sum": 15,
+      "Score": -0.0038,
+      "Score_minus_conf": -0.004,
+      "Confidence": 0.938
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Smaller computation datatype",
+      "Tactic_Sum": 7,
+      "Score": -0.004,
+      "Score_minus_conf": -0.005,
+      "Confidence": 0.8033
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "TPU SoC or Accelerator Hardware ",
+      "Tactic_Sum": 5,
+      "Score": -0.0044,
+      "Score_minus_conf": -0.0055,
+      "Confidence": 0.7992
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Transfer learning",
+      "Tactic_Sum": 5,
+      "Score": -0.0048,
+      "Score_minus_conf": -0.006,
+      "Confidence": 0.802
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Training loss function selection or adaptation",
+      "Tactic_Sum": 5,
+      "Score": -0.0048,
+      "Score_minus_conf": -0.006,
+      "Confidence": 0.802
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Pretraining",
+      "Tactic_Sum": 3,
+      "Score": -0.0074,
+      "Score_minus_conf": -0.0105,
+      "Confidence": 0.7117
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Normalization",
+      "Tactic_Sum": 3,
+      "Score": -0.0074,
+      "Score_minus_conf": -0.0105,
+      "Confidence": 0.7117
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Out-of-distribution detection",
+      "Tactic_Sum": 3,
+      "Score": -0.0074,
+      "Score_minus_conf": -0.0105,
+      "Confidence": 0.7117
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Multitask Scheduling",
+      "Tactic_Sum": 3,
+      "Score": -0.0074,
+      "Score_minus_conf": -0.0105,
+      "Confidence": 0.7117
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Feature encoding",
+      "Tactic_Sum": 3,
+      "Score": -0.0074,
+      "Score_minus_conf": -0.0105,
+      "Confidence": 0.7117
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "On-device local training",
+      "Tactic_Sum": 3,
+      "Score": -0.0074,
+      "Score_minus_conf": -0.0105,
+      "Confidence": 0.7117
+    },
+    {
+      "QualityAttribute": "Reliability",
+      "QualityAttribute_Sum": 15,
+      "Tactic": "Adversarial training",
+      "Tactic_Sum": 28,
+      "Score": -0.0077,
+      "Score_minus_conf": -0.0104,
+      "Confidence": 0.7449
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Out-of-distribution detection",
+      "Tactic_Sum": 3,
+      "Score": -0.0079,
+      "Score_minus_conf": -0.0111,
+      "Confidence": 0.7147
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Failure prevention or mitigation",
+      "Tactic_Sum": 3,
+      "Score": -0.0079,
+      "Score_minus_conf": -0.0111,
+      "Confidence": 0.7147
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Standard training on fully labeled datasets",
+      "Tactic_Sum": 3,
+      "Score": -0.0079,
+      "Score_minus_conf": -0.0111,
+      "Confidence": 0.7147
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Normalization",
+      "Tactic_Sum": 3,
+      "Score": -0.0079,
+      "Score_minus_conf": -0.0111,
+      "Confidence": 0.7147
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Containerization",
+      "Tactic_Sum": 3,
+      "Score": -0.0079,
+      "Score_minus_conf": -0.0111,
+      "Confidence": 0.7147
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "On-device local training",
+      "Tactic_Sum": 3,
+      "Score": -0.0079,
+      "Score_minus_conf": -0.0111,
+      "Confidence": 0.7147
+    },
+    {
+      "QualityAttribute": "Training performance efficiency",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Quantization",
+      "Tactic_Sum": 40,
+      "Score": -0.0088,
+      "Score_minus_conf": -0.0117,
+      "Confidence": 0.753
+    },
+    {
+      "QualityAttribute": "Safety",
+      "QualityAttribute_Sum": 11,
+      "Tactic": "Quantization",
+      "Tactic_Sum": 40,
+      "Score": -0.0088,
+      "Score_minus_conf": -0.0117,
+      "Confidence": 0.753
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Ternary weights and activations 2-bit",
+      "Tactic_Sum": 5,
+      "Score": -0.0091,
+      "Score_minus_conf": -0.0121,
+      "Confidence": 0.747
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Training loss function selection or adaptation",
+      "Tactic_Sum": 5,
+      "Score": -0.0091,
+      "Score_minus_conf": -0.0121,
+      "Confidence": 0.747
+    },
+    {
+      "QualityAttribute": "Functional adaptability",
+      "QualityAttribute_Sum": 21,
+      "Tactic": "Pruning",
+      "Tactic_Sum": 23,
+      "Score": -0.0091,
+      "Score_minus_conf": -0.0118,
+      "Confidence": 0.769
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Neural architecture search",
+      "Tactic_Sum": 10,
+      "Score": -0.0118,
+      "Score_minus_conf": -0.0143,
+      "Confidence": 0.8264
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Regularization training",
+      "Tactic_Sum": 8,
+      "Score": -0.0122,
+      "Score_minus_conf": -0.0148,
+      "Confidence": 0.8242
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Depth adjustment",
+      "Tactic_Sum": 12,
+      "Score": -0.0126,
+      "Score_minus_conf": -0.0138,
+      "Confidence": 0.9186
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Width adjustment",
+      "Tactic_Sum": 15,
+      "Score": -0.0157,
+      "Score_minus_conf": -0.0173,
+      "Confidence": 0.9075
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Multi-model of different models",
+      "Tactic_Sum": 6,
+      "Score": -0.0167,
+      "Score_minus_conf": -0.0201,
+      "Confidence": 0.8303
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Task-level parallelism on CNN layer-level",
+      "Tactic_Sum": 9,
+      "Score": -0.0243,
+      "Score_minus_conf": -0.0275,
+      "Confidence": 0.884
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Hardware and Software codesign",
+      "Tactic_Sum": 8,
+      "Score": -0.0247,
+      "Score_minus_conf": -0.0312,
+      "Confidence": 0.7912
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "End-to-end learning",
+      "Tactic_Sum": 4,
+      "Score": -0.0265,
+      "Score_minus_conf": -0.0347,
+      "Confidence": 0.7621
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Training with adversarial noise",
+      "Tactic_Sum": 4,
+      "Score": -0.0265,
+      "Score_minus_conf": -0.0347,
+      "Confidence": 0.7621
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Fault tolerant training",
+      "Tactic_Sum": 4,
+      "Score": -0.0265,
+      "Score_minus_conf": -0.0347,
+      "Confidence": 0.7621
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Specific model type selection",
+      "Tactic_Sum": 4,
+      "Score": -0.0265,
+      "Score_minus_conf": -0.0347,
+      "Confidence": 0.7621
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Training with adversarial noise",
+      "Tactic_Sum": 4,
+      "Score": -0.0277,
+      "Score_minus_conf": -0.0362,
+      "Confidence": 0.765
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Fault tolerant training",
+      "Tactic_Sum": 4,
+      "Score": -0.0277,
+      "Score_minus_conf": -0.0362,
+      "Confidence": 0.765
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Early-exit inference",
+      "Tactic_Sum": 4,
+      "Score": -0.0277,
+      "Score_minus_conf": -0.0362,
+      "Confidence": 0.765
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "End-to-end learning",
+      "Tactic_Sum": 4,
+      "Score": -0.0277,
+      "Score_minus_conf": -0.0362,
+      "Confidence": 0.765
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Meta-learning",
+      "Tactic_Sum": 10,
+      "Score": -0.0296,
+      "Score_minus_conf": -0.0345,
+      "Confidence": 0.8568
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Depth adjustment",
+      "Tactic_Sum": 12,
+      "Score": -0.0328,
+      "Score_minus_conf": -0.0358,
+      "Confidence": 0.9169
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Meta-learning",
+      "Tactic_Sum": 10,
+      "Score": -0.0437,
+      "Score_minus_conf": -0.0486,
+      "Confidence": 0.8987
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Sparsification",
+      "Tactic_Sum": 10,
+      "Score": -0.0663,
+      "Score_minus_conf": -0.0803,
+      "Confidence": 0.8264
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Training optimization algorithm selection or adaptation",
+      "Tactic_Sum": 11,
+      "Score": -0.0664,
+      "Score_minus_conf": -0.073,
+      "Confidence": 0.9094
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Depth adjustment",
+      "Tactic_Sum": 12,
+      "Score": -0.0682,
+      "Score_minus_conf": -0.0774,
+      "Confidence": 0.8811
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Integer-only operations",
+      "Tactic_Sum": 11,
+      "Score": -0.071,
+      "Score_minus_conf": -0.0845,
+      "Confidence": 0.8407
+    },
+    {
+      "QualityAttribute": "Functional correctness",
+      "QualityAttribute_Sum": 116,
+      "Tactic": "Adversarial training",
+      "Tactic_Sum": 28,
+      "Score": -0.1159,
+      "Score_minus_conf": -0.1185,
+      "Confidence": 0.9776
+    },
+    {
+      "QualityAttribute": "Time behaviour",
+      "QualityAttribute_Sum": 85,
+      "Tactic": "Training optimization algorithm selection or adaptation",
+      "Tactic_Sum": 11,
+      "Score": -0.1434,
+      "Score_minus_conf": -0.1649,
+      "Confidence": 0.8698
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Pruning",
+      "Tactic_Sum": 23,
+      "Score": -0.4237,
+      "Score_minus_conf": -0.4557,
+      "Confidence": 0.9298
+    },
+    {
+      "QualityAttribute": "Robustness",
+      "QualityAttribute_Sum": 69,
+      "Tactic": "Quantization",
+      "Tactic_Sum": 40,
+      "Score": -0.4428,
+      "Score_minus_conf": -0.4566,
+      "Confidence": 0.9699
+    },
+    {
+      "QualityAttribute": "Ressource utilization",
+      "QualityAttribute_Sum": 118,
+      "Tactic": "Adversarial training",
+      "Tactic_Sum": 28,
+      "Score": -0.5077,
+      "Score_minus_conf": -0.519,
+      "Confidence": 0.9783
+    }
+  ]
+}
