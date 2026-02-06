@@ -36,8 +36,8 @@ class Triple:
 
 def main():
     input_folder = 'Input'
-    tactic_excel_file = '00_Tactic Classification Overview.xlsx'
-    qa_excel_file = '00_Quality Attribute Classification Overview.xlsx'
+    tactic_excel_file = 'tactic-classification-overview.xlsx'
+    qa_excel_file = 'quality-attribute-classification-overview.xlsx'
     tactic_file_path = os.path.join(input_folder, tactic_excel_file)
     qa_file_path = os.path.join(input_folder, qa_excel_file)
 
