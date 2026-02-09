@@ -48,13 +48,13 @@ def main():
                 print("INFO | Structure recognized: Process JSON for Tactic-Tactic associations..")
                 name1 = 'Tactic1'
                 name2 = 'Tactic2'
-                predicate = 'impacts'
+                predicate = 'affects'
 
             elif "QualityAttribute" in data["Scores"][0]:
                 print("INFO | Structure recognized: Process JSON for QualityAttribute-Tactic associations..")
                 name1 = 'Tactic'
                 name2 = 'QualityAttribute'
-                predicate = 'affects'
+                predicate = 'impacts'
 
 
             else:
