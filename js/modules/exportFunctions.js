@@ -33,8 +33,8 @@ export function exportFilteredJSON() {
       if (predicate.value.endsWith('Confidence')) return;
 
       // filter application
-      if (Math.abs(metaVal) < tacticCorrelationThreshold && shorten(subject.predicate.value) === "affects") return;      //Edited relation here
-      if (Math.abs(metaVal) < minCorrelation && shorten(subject.predicate.value) === "impacts") return;      //Edited relation here
+      if (Math.abs(metaVal) < tacticCorrelationThreshold && shorten(subject.predicate.value) === "affects") return;
+      if (Math.abs(metaVal) < minCorrelation && shorten(subject.predicate.value) === "impacts") return;
 
       // only positive?
       if (showPositive && !showNegative && metaVal < 0) return;
@@ -82,12 +82,12 @@ export function exportFilteredJSON() {
 
   // Hilfsfunktion: Findet alle Taktiken, die von einer gegebenen Taktik beeinflusst werden (affects)
   function findAffects(tacticIri) {
-    const affects = [];      //Edited relation here
+    const affects = [];
     const seen = new Set();
     
     allTriples.forEach(({ subject, predicate, object }) => {
       if (subject.termType === 'Quad' && 
-          shorten(subject.predicate.value) === "affects" &&      //Edited relation here
+          shorten(subject.predicate.value) === "affects" &&
           subject.subject.value === tacticIri &&
           predicate.value.endsWith('Score')) {
         
@@ -98,24 +98,24 @@ export function exportFilteredJSON() {
         if (Math.abs(metaVal) >= tacticCorrelationThreshold) {
           const targetTactic = subject.object.value;
           if (tacticSet.has(targetTactic) && !seen.has(targetTactic)) {
-            affects.push({ tacticIri: targetTactic, score: metaVal });      //Edited relation here
+            affects.push({ tacticIri: targetTactic, score: metaVal });
             seen.add(targetTactic);
           }
         }
       }
     });
     
-    return affects;      //Edited relation here
+    return affects;
   }
 
   // Hilfsfunktion: Findet alle Taktiken, die eine gegebene Taktik beeinflussen (impactedBy)
-  function findAffectedBy(tacticIri) {//Edited relation here
+  function findAffectedBy(tacticIri) {
     const affectedBy = [];
     const seen = new Set();
     
     allTriples.forEach(({ subject, predicate, object }) => {
       if (subject.termType === 'Quad' && 
-          shorten(subject.predicate.value) === "affects" &&//Edited relation here
+          shorten(subject.predicate.value) === "affects" &&
           subject.object.value === tacticIri &&
           predicate.value.endsWith('Score')) {
         
@@ -153,8 +153,8 @@ export function exportFilteredJSON() {
       if (predicate.value.endsWith('Confidence')) return;
 
       //Filter für Correlation Tactic
-      if (Math.abs(correlation) < tacticCorrelationThreshold && shorten(subject.predicate.value) === "affects") return;//Edited relation here
-      if (Math.abs(correlation) < minCorrelation && shorten(subject.predicate.value) === "impacts") return;//Edited relation here
+      if (Math.abs(correlation) < tacticCorrelationThreshold && shorten(subject.predicate.value) === "affects") return;
+      if (Math.abs(correlation) < minCorrelation && shorten(subject.predicate.value) === "impacts") return;
       
       //Filter für nur positive Werte für Score
       if (showPositive && !showNegative && correlation < 0) return;
@@ -180,7 +180,7 @@ export function exportFilteredJSON() {
         const tacticObj = createTacticObject(tactic, true, correlation);
         
         // Impacts und ImpactedBy nur hinzufügen, wenn Checkbox aktiviert ist
-        if (includeTacticRelations) {//Edited relation here
+        if (includeTacticRelations) {
           // Impacts hinzufügen
           const affectTactics = findAffects(tactic);
           if (affectTactics.length > 0) {
@@ -239,8 +239,8 @@ export function exportFilteredJSONwithCertainty() {
       if (predicate.value.endsWith('Confidence')) return;
 
       // Spezifische Filter
-      if (certaintyOrCorrelation === "affects" && Math.abs(correlation) < tacticCorrelationThreshold) return;//Edited relation here
-      if (certaintyOrCorrelation === "impacts" && Math.abs(correlation) < minCorrelation) return;//Edited relation here
+      if (certaintyOrCorrelation === "affects" && Math.abs(correlation) < tacticCorrelationThreshold) return;
+      if (certaintyOrCorrelation === "impacts" && Math.abs(correlation) < minCorrelation) return;
       
       //Filter für nur positive Werte für Score
       if (showPositive && !showNegative && metaVal < 0) return;
@@ -256,7 +256,7 @@ export function exportFilteredJSONwithCertainty() {
       const qaKey = shorten(qualityAttr);
       const tacticKey = shorten(tactic);
 
-      if (certaintyOrCorrelation === "impacts") {//Edited relation here
+      if (certaintyOrCorrelation === "impacts") {
         // Ablage unter Correlations.QualityAttributesAndTactics
         if (!result.Correlations.QualityAttributesAndTactics[qaKey]) {
           result.Correlations.QualityAttributesAndTactics[qaKey] = { Tactics: [] };
@@ -271,7 +271,7 @@ export function exportFilteredJSONwithCertainty() {
             Certainty: +certaintyVal.toFixed(2)
           });
         }
-      } else if (certaintyOrCorrelation === "affects") {//Edited relation here
+      } else if (certaintyOrCorrelation === "affects") {
         // Ablage unter Correlations.TacticsOnly
         if (!result.Correlations.TacticsOnly[tacticKey]) {
           result.Correlations.TacticsOnly[tacticKey] = [];
@@ -331,8 +331,8 @@ export function exportFilteredJSONTacticsOnly() {
       if (predicate.value.endsWith('Confidence')) return;
 
       // Filter für Correlation Tactic
-      if (Math.abs(metaVal) < tacticCorrelationThreshold && shorten(subject.predicate.value) === "affects") return;//Edited relation here
-      if (Math.abs(metaVal) < minCorrelation && shorten(subject.predicate.value) === "impacts") return;//Edited relation here
+      if (Math.abs(metaVal) < tacticCorrelationThreshold && shorten(subject.predicate.value) === "affects") return;
+      if (Math.abs(metaVal) < minCorrelation && shorten(subject.predicate.value) === "impacts") return;
 
       // Filter für nur positive Werte für Score
       if (showPositive && !showNegative && metaVal < 0) return;
@@ -374,13 +374,13 @@ export function exportFilteredJSONTacticsOnly() {
     return tacticObj;
   }
 
-  function findAffects(tacticIri) {      //Edited relation here
-    const affects = [];      //Edited relation here
+  function findAffects(tacticIri) {
+    const affects = [];
     const seen = new Set();
     
     allTriples.forEach(({ subject, predicate, object }) => {
       if (subject.termType === 'Quad' && 
-          shorten(subject.predicate.value) === "affects" &&      //Edited relation here
+          shorten(subject.predicate.value) === "affects" &&
           subject.subject.value === tacticIri &&
           predicate.value.endsWith('Score')) {
         
@@ -390,7 +390,7 @@ export function exportFilteredJSONTacticsOnly() {
         if (Math.abs(metaVal) >= tacticCorrelationThreshold) {
           const targetTactic = subject.object.value;
           if (tacticSet.has(targetTactic) && !seen.has(targetTactic)) {
-            affects.push({ tacticIri: targetTactic, score: metaVal });      //Edited relation here
+            affects.push({ tacticIri: targetTactic, score: metaVal });
             seen.add(targetTactic);
           }
         }
@@ -400,7 +400,7 @@ export function exportFilteredJSONTacticsOnly() {
     return affects;
   }
 
-  function findAffectedBy(tacticIri) {      //Edited relation here
+  function findAffectedBy(tacticIri) {
     const affectedBy = [];
     const seen = new Set();
     
@@ -416,16 +416,16 @@ export function exportFilteredJSONTacticsOnly() {
         if (Math.abs(metaVal) >= tacticCorrelationThreshold) {
           const sourceTactic = subject.subject.value;
           if (tacticSet.has(sourceTactic) && !seen.has(sourceTactic)) {
-            affectedBy.push({ tacticIri: sourceTactic, score: metaVal });//Edited relation here
+            affectedBy.push({ tacticIri: sourceTactic, score: metaVal });
             seen.add(sourceTactic);
           }
         }
       }
     });
     
-    return affectedBy;//Edited relation here
+    return affectedBy;
   }
-//Edited relation here
+
   const result = {
     Tactics: Array.from(tacticSet).map(tacticIri => {
       const tacticObj = createTacticObject(tacticIri);

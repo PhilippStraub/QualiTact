@@ -48,7 +48,7 @@ export function renderGraph(selectedAttributes, minCorrelation, minCertainty, ta
         const metaVal = parseFloat(object.value);
         const metaProp = predicate.value; 
         
-        if (shorten(rel) === "impacts" && selectedAttributes.includes(to) && metaProp.endsWith('Score')) { //Edited relation here
+        if (shorten(rel) === "impacts" && selectedAttributes.includes(to) && metaProp.endsWith('Score')) { 
           if(Math.abs(metaVal) >= minCorrelation){
             relevantTactics.add(from);
           }
@@ -82,18 +82,18 @@ export function renderGraph(selectedAttributes, minCorrelation, minCertainty, ta
         const isAffects = shorten(rel) === "affects";
         const isImpacts = shorten(rel) === "impacts";
 
-        if (isImpacts && !selectedAttributes.includes(to)) {//Edited relation here
+        if (isImpacts && !selectedAttributes.includes(to)) {
           return; // Taktik -> QA: Nur anzeigen, wenn QA ausgewählt ist
         }
         
-        if (isAffects && (!relevantTactics.has(from) || !relevantTactics.has(to))) {//Edited relation here
+        if (isAffects && (!relevantTactics.has(from) || !relevantTactics.has(to))) {
           return; // Taktik -> Taktik: Nur anzeigen, wenn beide Taktiken relevant sind
         } 
       }
       if (selectedTactics.length > 0 && !selectedTactics.includes(from)) return;
 
-      if (Math.abs(metaVal) < tacticCorrelationThreshold && shorten(rel) === "affects") return;//Edited relation here
-      if (Math.abs(metaVal) < minCorrelation && shorten(rel) === "impacts") return;//Edited relation here
+      if (Math.abs(metaVal) < tacticCorrelationThreshold && shorten(rel) === "affects") return;
+      if (Math.abs(metaVal) < minCorrelation && shorten(rel) === "impacts") return;
 
       if (showPositive && !showNegative && metaVal < 0) return;
       if (showNegative && !showPositive && metaVal > 0) return;
@@ -102,10 +102,10 @@ export function renderGraph(selectedAttributes, minCorrelation, minCertainty, ta
       var tacticTypeTripleTo = null;
 
       // Define nodes and edges
-      if (shorten(rel) === "affects") {//Edited relation here
+      if (shorten(rel) === "affects") {
         tacticTypeTripleFrom = normalTriples.find(t => t.subject.value === from && t.predicate.value === 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type');
         tacticTypeTripleTo = normalTriples.find(t => t.subject.value === to && t.predicate.value === 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type');
-      } else if (shorten(rel) === "impacts"){//Edited relation here
+      } else if (shorten(rel) === "impacts"){
         tacticTypeTripleFrom = normalTriples.find(t => t.subject.value === from && t.predicate.value === 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type');
       } else {
         console.log('Error, Relation not known: ' + shorten(rel)) 

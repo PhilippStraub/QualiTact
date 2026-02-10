@@ -61,10 +61,10 @@ export function extractEntities() {
   allTriples.forEach(({ subject }) => {
     if (subject.termType === 'Quad') {
       const rel = subject.predicate.value;
-      if (shorten(rel) === "impacts") {      //Edited relation here
+      if (shorten(rel) === "impacts") {
         qualityAttributes.add(subject.object.value);
         tactics.add(subject.subject.value);
-      } else if (shorten(rel) === "affects"){      //Edited relation here
+      } else if (shorten(rel) === "affects"){
         tactics.add(subject.object.value);
         tactics.add(subject.subject.value);  
       } else {
