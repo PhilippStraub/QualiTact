@@ -35,7 +35,8 @@ class Triple:
         return f":{self.subject} :{self.predicate} :{self.obj} ."
 
 def main():
-    input_folder = 'Input'
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    input_folder = os.path.join(script_dir, 'input', 'SMS + Multicase')
     tactic_excel_file = 'tactic-classification-overview.xlsx'
     qa_excel_file = 'quality-attribute-classification-overview.xlsx'
     tactic_file_path = os.path.join(input_folder, tactic_excel_file)
@@ -50,11 +51,13 @@ def main():
 
         for index, row in df_tactics.iterrows():
             tactic = row['Tactics']
+            tactic_type = row['Type']
             
             if pd.notna(tactic):
                 subject = str(tactic).replace(" ", "_").replace("/", "_or_").replace(",", "_or_")
+                obj = str(tactic_type).replace(" ", "_")
                 
-                triple = Triple(subject, "rdf:type", "Tactic")
+                triple = Triple(subject, "rdf:type", obj)
                 turtle_content.append(str(triple))
 
     except FileNotFoundError:
@@ -83,7 +86,7 @@ def main():
 
 
     # Turtle creation
-    output_dir = "output"
+    output_dir = os.path.join(script_dir, "output")
     os.makedirs(output_dir, exist_ok=True)
     output_file_path = os.path.join(output_dir, "model.ttl")
 
@@ -95,6 +98,8 @@ def main():
             f.write("@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n")
             
             f.write(":Tactic rdf:type rdfs:Class .\n")
+            f.write(":DesignTactic rdfs:subClassOf :Tactic .\n")
+            f.write(":ImplementationTactic rdfs:subClassOf :Tactic .\n")
             f.write(":QualityAttribute rdf:type rdfs:Class .\n\n")
             for line in turtle_content:
                 f.write(line + "\n")
