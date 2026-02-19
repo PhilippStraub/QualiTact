@@ -22,7 +22,7 @@
 
 
 ```powershell
-poetry run score-analysis-project
+poetry run score-analysis-project-qas-tactics
 ```
 
 ## What happens when you run it?

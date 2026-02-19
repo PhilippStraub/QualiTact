@@ -11,7 +11,6 @@ warnings.filterwarnings('ignore')
 
 # --- Parameters for configuration ---
 MIN_SUPPORT_TACTIC = 1      # (a+b)
-MIN_SUPPORT_QA = 1          # (a+c)
 USE_PSEUDOCOUNT = False     # Recommended to be False, since research shows this introduces bias
 PSEUDOCOUNT = 0.5           
 TANH_ALPHA = 0.5            # Scaling factor for logRR normalization
