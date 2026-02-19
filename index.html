@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>QualiTact-AI Modell</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23ffc107'/%3E%3Ctext x='50' y='70' font-size='60' font-weight='bold' text-anchor='middle' fill='%23fff'%3EQ%3C/text%3E%3C/svg%3E">
   <script src="https://unpkg.com/n3@1.14.0/browser/n3.min.js" crossorigin="anonymous"></script>
@@ -19,7 +20,7 @@
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-3" id="filterbar">
+      <div class="col-12 col-md-4" id="filterbar">
         <div class="filters" id="correlationfilter">
           <label>Filter Scores:</label><br>
           <div id="kanten">
@@ -32,7 +33,7 @@
           <input type="range" class="slider" id="correlationSlider" min="0" max="1" step="0.01" value="0.1">
           <input type="number" class="form-control" id="correlationInput" min="0" max="1" step="0.01" value="0.1"><br>
           <div class="posNeg">
-            <div class="form-check form-switch form-check-inline">
+            <div class="form-check form-switch form-check-inline" id="positiveBox">
               <input class="form-check-input" type="checkbox" id="showPositive" name="showPositive" checked><label class="form-check-label" for="showPositive">positive values</label>
             </div>
             <div class="form-check form-switch form-check-inline">
@@ -47,13 +48,13 @@
             </div>
 
             <div class="collapse hide mt-2" id="filtersCollapse">
-              <div class="ps-2">
-                <div class="addfilters">
-                  <label class="otherFilters" for="certaintySlider">Confidence Value (Percentage)</label><br>
+              <div class="ps-2" id="sub-filtersCollapse">
+                <div class="addfilters block" id="sub-sub-filtersCollapse">
+                  <label class="otherFilters" for="certaintySlider">Confidence Value (Percentage)</label>
                   <input type="range" class="slider" id="certaintySlider" min="0" max="1" step="0.01" value="0.0" disabled>
                   <input type="number" class="form-control" id="certaintyInput" min="0" max="1" step="0.01" value="0.0" disabled><br>
 
-                  <label class="otherFilters" for="correlationTacticSlider" id="correlationTacticsHead">Score Value between Tactics</label><br>
+                  <label class="otherFilters" for="correlationTacticSlider" id="correlationTacticsHead">Score Value between Tactics</label>
                   <input type="range" class="slider" id="correlationTacticSlider" min="0" max="1" step="0.01" value="0.1">
                   <input type="number" class="form-control" id="correlationTacticsInput" min="0" max="1" step="0.01" value="0.1">
                 </div>
@@ -65,30 +66,30 @@
 
         <div class="filters">
           <label>Filter by Quality Attribute(s):</label><span class="tree_stats"><span id="stats_qa">0</span> selected</span><br>
-          <div class="d-flex flex-wrap align-items-center gap-2 mb-2">
-            <input type="text" id="treeSearchQA" class="form-control" placeholder="🔍 Search...">
-            <div class="d-flex gap-2">
+          <div class="d-flex flex-wrap align-items-center gap-2 mb-2 searchbar">
+            <input type="text" id="treeSearchQA" class="form-control flex-grow-1" placeholder="🔍 Search...">
+            <div class="d-flex gap-2 searchbar-buttons">
               <button class="btn btn-warning btn-sm" id="selectAll">Select All</button>
               <button class="btn btn-outline-secondary btn-sm" id="clearAll">Clear Selection</button><br>
             </div>
           </div>
-          <div id="tree-QA"class="overflow-auto"></div><br><br>
+          <div id="tree-QA"class="overflow-auto"></div>
         </div>
 
         <div class="filters">
           <label>Filter by Tactic(s):</label><span class="tree_stats"><span id="stats_tactics">0</span> selected</span><br>
-          <div class="d-flex flex-wrap align-items-center gap-2 mb-2">
-            <input type="text" id="treeSearchTactics" class="form-control" placeholder="🔍 Search...">
-            <div class="d-flex gap-2">
+          <div class="d-flex flex-wrap align-items-center gap-2 mb-2 searchbar">
+            <input type="text" id="treeSearchTactics" class="form-control flex-grow-1" placeholder="🔍 Search...">
+            <div class="d-flex gap-2 searchbar-buttons">
               <button class="btn btn-warning btn-sm" id="selectAllTactics">Select All</button>
               <button class="btn btn-outline-secondary btn-sm" id="clearAllTactics">Clear Selection</button>
             </div>
           </div>
-          <div id="tree-Tactics" class="overflow-auto"></div><br><br>
+          <div id="tree-Tactics" class="overflow-auto"></div>
         </div>
 
       </div>
-      <div class="col">
+      <div class="col-12 col-md-8">
         <h2 class="display-6">QualiTact-AI Model</h2>
         <div class="row" id="upper-model">
           <div class="col">
@@ -97,7 +98,7 @@
               Quality Attributes: <span id="stats_object">0</span>
             </div>
           </div>
-          <div class="col-sm-2">
+          <div class="col-12 col-md-auto" id="export-area">
             <div class="dropdown">
               <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                 Export JSON
