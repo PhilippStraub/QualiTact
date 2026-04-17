@@ -111,15 +111,23 @@ export function renderGraph(selectedAttributes, minCorrelation, minCertainty, ta
         console.log('Error, Relation not known: ' + shorten(rel)) 
       }
 
+      // Differ between design and implementation tactics
+      const qualityTypeTriple = normalTriples.find(t => t.subject.value === to && t.predicate.value === 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type');
       if (tacticTypeTripleTo != null) {
-        if (shorten(tacticTypeTripleTo.object.value) === 'Tactic') {
+        "Taktiken Correlation"
+        if (shorten(tacticTypeTripleTo.object.value) === 'DesignTactic') {
+          nodes.set(to, { id: to, label: shorten(to), shape: 'diamond',color: '#417fe3',size: 23, title: `http://example.org/${shorten(to)}` }); //Alternativ: box, 
+        } else if (shorten(tacticTypeTripleTo.object.value) === 'ImplementationTactic') {
           nodes.set(to, { id: to, label: shorten(to), shape: 'hexagon', title: `http://example.org/${shorten(to)}` });
         }
       } else {
+        "QA-Tactic Correlation"
         nodes.set(to, { id: to, label: shorten(to), color: '#ffc107' });
       }
       if(tacticTypeTripleFrom != null){
-        if (shorten(tacticTypeTripleFrom.object.value) === 'Tactic') {
+        if (shorten(tacticTypeTripleFrom.object.value) === 'DesignTactic') {
+          nodes.set(from, { id: from, label: shorten(from), shape: 'diamond', color: '#417fe3',size: 23, title: `http://example.org/${shorten(from)}` }); //Alternativ: box, 
+        } else if (shorten(tacticTypeTripleFrom.object.value) === 'ImplementationTactic') {
           nodes.set(from, { id: from, label: shorten(from), shape: 'hexagon', title: `http://example.org/${shorten(from)}` });
         }
       }

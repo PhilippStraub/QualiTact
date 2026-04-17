@@ -1,6 +1,7 @@
 // Data processing module for RDF parsing and triple management
 
 import { turtleStarData } from '../data/turtleStarData.js';
+import { fetchFullModel } from './apiClient.js';
 import { shorten } from './utilities.js';
 
 
@@ -12,12 +13,23 @@ export const scoreMinusConfMap = new Map();
 let initCallback = null;
 
 
-export function parseRDFData(callback) {
+export async function parseRDFData(callback) {
   initCallback = callback;
+  
+  // Try to fetch data from backend API
+  let rdfData;
+  try {
+    console.log('Fetching semantic model from backend API...');
+    rdfData = await fetchFullModel();
+    console.log('Successfully loaded semantic model from backend');
+  } catch (error) {
+    console.warn('Failed to fetch from backend, falling back to local data:', error);
+    rdfData = turtleStarData;
+  }
   
   const parser = new N3.Parser({ format: 'Turtle*' });
   
-  parser.parse(turtleStarData, (error, quad, prefixes) => {
+  parser.parse(rdfData, (error, quad, prefixes) => {
     if (quad) {
       // Distinction between rdf star and normal triples
       if (quad.subject.termType === 'Quad') { 

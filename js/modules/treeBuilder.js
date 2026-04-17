@@ -2,6 +2,7 @@
 
 import { shorten } from './utilities.js';
 import { updateGraphFromSelection } from './graphRenderer.js';
+import { allTriples, normalTriples} from './dataProcessing.js';
 
 let qaTreeInitialized = false;
 let tacticTreeInitialized = false;
@@ -64,10 +65,18 @@ export function buildQATree(attributes) {
 
 export function buildTacticTree(tactics) {
   const data = tactics.sort().map(tac => {
+    const fullSubject = `http://example.org/${tac}`;
+    const typeTriple = normalTriples.find(t => t.subject.value === tac && (t.object.value.endsWith('DesignTactic') || t.object.value.endsWith('ImplementationTactic')));
+    
+    let icon = "bi bi-hexagon-fill text-primary"; // Default: ImplementationTactic
+    if (typeTriple && typeTriple.object.value.endsWith('DesignTactic')) {
+      icon = "bi bi-diamond-fill text-primary";
+    }
+
     return {
       id: tac,
       text: shorten(tac),
-      icon: "bi bi-hexagon-fill text-primary"
+      icon: icon
     };
   });
 

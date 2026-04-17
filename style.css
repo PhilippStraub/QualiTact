@@ -13,8 +13,7 @@
     margin-bottom: 10px; 
 }
 
-
-.col-sm-2 button {
+.col-12.col-md-auto button {
     margin-top: 20px;   
 }
 
@@ -31,6 +30,22 @@
 .filters button{
     display: inline-block;
 
+}
+
+#filtersCollapse .ps-2,
+#filtersCollapse .addfilters {
+  display: block;
+  width: 100%;
+}
+
+#filtersCollapse label {
+  display: block;
+  width: 100%;
+}
+
+#filtersCollapse .slider,
+#filtersCollapse input[type="number"] {
+  display: inline-block;
 }
 
 
@@ -50,11 +65,11 @@
     margin-bottom: 10px;
 }
 
-.col-sm-2{
+.col-12.col-md-auto{
     background-color: white;
 }
 
-.col{
+.col-12.col-md-8{
     background-color: white;
 }
 
@@ -74,9 +89,9 @@
 }
 
 #filterbar{
-    max-height: 1950px;
     display: block;
 }
+
 
 
 .jstree-default .jstree-themeicon.bi {
@@ -95,8 +110,7 @@
   white-space: nowrap; 
 }
 .slider{
-    width: 15rem;
-    /* margin-right: 20px; */
+    width: 60%;
 }
 
 #correlationInput {
@@ -134,8 +148,10 @@
 
 .form-control{
     padding: .200rem .75rem;
-    min-width:80px;
-    max-width: 150px;
+}
+
+.searchbar input{
+  max-width: 45%;
 }
 
 .tree_stats{
@@ -148,6 +164,10 @@
 }
 .addfilters{
     font-size: 14px;
+}
+
+.addfilters .form-control{
+  margin-left: 1rem;
 }
 
 .otherFilters{
@@ -169,12 +189,20 @@
     margin-right: 5px;
 }
 #hexagonLegend {
-  display: inline-block; /* wichtig, sonst wirkt transform nicht */
+  display: inline-block;
   transform: rotate(90deg);
 }
 
 .form-check-label{
     font-weight: normal;
+}
+
+.form-check-inline{
+  margin-right: 0;
+}
+
+#positiveBox{
+  margin-right: 1rem;
 }
 
 .posNeg{
@@ -198,9 +226,13 @@ label {
 .filters { 
   margin-bottom: 10px; 
 }
-.filters div { 
-  display: inline-block 
+
+#kanten,
+.posNeg,
+.form-check {
+  display: inline-block;
 }
+
 .filters button { 
   margin-left: 0px; 
 }
@@ -268,8 +300,44 @@ label {
   box-shadow: 0 0 0 0.25rem rgba(108, 117, 125, 0.25);
 }
 
+@media (max-width: 1100.98px) {
 
-@media (min-width: 576px) {
+  .col-12.col-md-auto button {
+    margin-top: 10px;
+  }
+
+  #filterbar {
+    max-height: none;
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+  
+  .col-12.col-md-8 {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+  
+   .row>* {
+    width: fit-content;
+   }
+   #export-area{
+    width: fit-content;
+   }
+
+}
+
+@media (max-width: 1500px) {
+    
+  .searchbar input{
+    max-width: 100%;
+  }
+
+
+}
+
+@media (min-width: 1101px) {
   body, html {
     overflow: hidden;
   }
@@ -302,5 +370,13 @@ label {
   .filters::-webkit-scrollbar {
     width: 12px;
   }
+
+}
+
+@media (min-width: 1851px) {
+ .col-md-4{
+  width: 25%;
+ }
+
 
 }

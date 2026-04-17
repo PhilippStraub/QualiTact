@@ -109,5 +109,5 @@ export function initializeUI() {
   document.getElementById('exportJSONTacticsOnly').addEventListener('click', exportFilteredJSONTacticsOnly);
 
   // Initial graph render
-  renderGraph([], 0.1, 0.0, 0.1, [], true, true);
+  renderGraph([], 0.25, 0.0, 0.2, [], true, true);
 }
