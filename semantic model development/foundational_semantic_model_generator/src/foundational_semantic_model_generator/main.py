@@ -8,6 +8,8 @@ RDF = Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
 RDFS = Namespace("http://www.w3.org/2000/01/rdf-schema#")
 RDFTerm = str 
 
+WorkingDirectory = 'SMS + Multicase'
+
 # Dataclasses für RDF-Tripel
 from dataclasses import dataclass
 from typing import Union
@@ -36,7 +38,7 @@ class Triple:
 
 def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    input_folder = os.path.join(script_dir, 'input', 'SMS + Multicase')
+    input_folder = os.path.join(script_dir, 'input', WorkingDirectory)
     tactic_excel_file = 'tactic-classification-overview.xlsx'
     qa_excel_file = 'quality-attribute-classification-overview.xlsx'
     tactic_file_path = os.path.join(input_folder, tactic_excel_file)
@@ -122,7 +124,7 @@ def main():
 
 
     # Turtle creation
-    output_dir = os.path.join(script_dir, "output")
+    output_dir = os.path.join(script_dir, "output", WorkingDirectory)
     os.makedirs(output_dir, exist_ok=True)
     output_file_path = os.path.join(output_dir, "model.ttl")
 

@@ -9,6 +9,8 @@ import warnings
 from pathlib import Path
 warnings.filterwarnings('ignore')
 
+WorkingDirectory = 'SMS + Multicase'
+
 # --- Parameters for configuration ---
 MIN_SUPPORT_TACTIC = 1      # (a+b)
 MIN_SUPPORT_QA = 1          # (a+c)
@@ -118,7 +120,7 @@ def main():
     BASE_DIR = Path(__file__).parent
 
     print("INFO | Score calculation initiated...")
-    version = "SMS"
+    version = WorkingDirectory
     print(f'INFO | Use data from {version}')
     taktiken_df = pd.read_excel(BASE_DIR / "data" / version / "data-tactics.xlsx")
 

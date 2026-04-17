@@ -2,9 +2,13 @@ import os
 import json
 from rdflib import Namespace, Literal, XSD
 
+
+WorkingDirectory = 'SMS + Multicase'
+
+
+
 # Namespaces
 EX = Namespace("http://example.org/")
-
 # Typen für RDF-Terme
 RDFTerm = str  # str = URIRef/Literal/BNode
 
@@ -34,7 +38,8 @@ class Triple:
 
 def main():
     # Pfad zur JSON-Datei
-    input_folder = 'Input'
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    input_folder = os.path.join(script_dir, 'input', WorkingDirectory)
     json_file = 'scores.json'
     file_path = os.path.join(input_folder, json_file)
 
@@ -88,7 +93,7 @@ def main():
                 turtle_content.append(str(outer))
 
         # create output
-        output_dir = "output"
+        output_dir = os.path.join(script_dir, "output", WorkingDirectory)
         os.makedirs(output_dir, exist_ok=True)
         output_file_path = os.path.join(output_dir, "model.ttl")
 
