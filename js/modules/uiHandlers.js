@@ -42,16 +42,21 @@ export function initializeUI() {
     }
   });
 
+  document.getElementById('applyScore').addEventListener('click', e => {
+    // document.getElementById('correlationInput').value = e.target.value;
+    updateGraphFromSelection();
+  });
+
   document.getElementById('correlationSlider').addEventListener('input', e => {
     document.getElementById('correlationInput').value = e.target.value;
-    updateGraphFromSelection();
+    // updateGraphFromSelection();
   });
 
   document.getElementById('correlationInput').addEventListener('input', e => {
     const value = parseFloat(e.target.value);
     if (!isNaN(value) && value >= 0 && value <= 1) {
       document.getElementById('correlationSlider').value = value;
-      updateGraphFromSelection();
+      // updateGraphFromSelection();
     }
   });
 
@@ -70,14 +75,14 @@ export function initializeUI() {
 
   document.getElementById('correlationTacticSlider').addEventListener('input', e => {
     document.getElementById('correlationTacticsInput').value = e.target.value;
-    updateGraphFromSelection();
+    // updateGraphFromSelection();
   });
 
   document.getElementById('correlationTacticsInput').addEventListener('input', e => {
     const value = parseFloat(e.target.value);
     if (!isNaN(value) && value >= 0 && value <= 1) {
       document.getElementById('correlationTacticSlider').value = value;
-      updateGraphFromSelection();
+      // updateGraphFromSelection();
     }
   });
 

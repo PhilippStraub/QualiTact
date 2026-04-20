@@ -300,6 +300,11 @@ label {
   box-shadow: 0 0 0 0.25rem rgba(108, 117, 125, 0.25);
 }
 
+#applyScore {
+  float: right;
+  margin-top: 10px;
+}
+
 @media (max-width: 1100.98px) {
 
   .col-12.col-md-auto button {
