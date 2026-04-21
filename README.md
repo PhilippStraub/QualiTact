@@ -56,19 +56,19 @@ Overview of Features:
 
 ### Score filtering between Quality Attributes and Tactics
 
-This filter allows to set the threshold for the score between quality attributes and tactics. The score is normalized to the interval [-1, 1]. **We recommend to consider values above 0.06 as recommendations**. Please be aware that the score, due to its computation, does not allow us to conclude that one tactic is better suited for achieving a quality attribute than another simply because, for example, the score is higher. Dedicated additional filters allow you to display only positive or negaitve scores between quality attributes and tactics.
+This filter allows to set the threshold for the score between quality attributes and tactics. The score is normalized to the interval [-1, 1]. **We recommend to consider values above 0.06 as recommendations**. Please be aware that the score, due to its computation, does not allow us to conclude that one tactic is better suited for achieving a quality attribute than another simply because, for example, the score is higher. Dedicated additional filters allow you to display only positive or negaitve scores between quality attributes and tactics. To apply the selected threshold for the score to the model, the corresponding button must be clicked (this prevents long loading times, since otherwise the model would be constantly updating on score change).
 
 ### Score filtering between Tactics (hidden behind "More Filters")
 
-This filter allows to set the threshold for the score between tactics. The score is normalized to the interval [-1, 1]. This provides you with additional information such as: What tactics are combined more often? Since this additional information adds many links to the model, it is hidden by default, with the value set to 1. To display it, lower the value to the desired level. 
+This filter allows to set the threshold for the score between tactics. The score is normalized to the interval [-1, 1]. This provides you with additional information such as: What tactics are combined more often? Since this additional information adds many links to the model, it is hidden by default, with the value set to 1. To display it, lower the value to the desired level. To apply the selected threshold for the score to the model, the corresponding button must be clicked (this prevents long loading times, since otherwise the model would be constantly updating on score change).
 
 ### Quality Attribute Selection
 
-Select the quality attributes your project aims to achieve. Based on the configured filter for the score between quality attributes and tactics, the model displays the nodes to which the selected filters apply. 
+Select the quality attributes your project aims to achieve. Based on the configured filter for the score between quality attributes and tactics, the model automatically displays the nodes to which the selected filters apply. 
 
 ### Architectural Tactic Selection
 
-Select the architectural tactics your project whishes to apply or applies. Based on the configured filter for the score between quality attributes and tactics, the model displays the nodes to which the selected filters apply. Futhermore, based on the configured filter for the score between tactics, the model displays the nodes.
+Select the architectural tactics your project whishes to apply or applies. Based on the configured filter for the score between quality attributes and tactics, the model automatically displays the nodes to which the selected filters apply. Futhermore, based on the configured filter for the score between tactics, the model displays the nodes.
 
 ### Export
 
