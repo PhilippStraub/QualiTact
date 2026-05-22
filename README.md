@@ -14,6 +14,7 @@ This link routes you to the model: [QualiTact Webpage](https://philippstraub.git
 ├── index.html                                #Model webpage
 ├── style.css                                 #Webpage style
 ├── references.xlsx                           #References for meanings of tactics
+├── quality attribute assessment sheet.xlsx   #Assessment sheet used for studies' quality attribute retrieval
 ├── README.md                                 #You are here!
 ├── js/                                       #Javascript modules webpage
 ├── semantic model development/               #Tools for semantic model creation
