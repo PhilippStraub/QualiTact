@@ -50,6 +50,9 @@ export function renderGraph(selectedAttributes, minCorrelation, minCertainty, ta
         
         if (shorten(rel) === "impacts" && selectedAttributes.includes(to) && metaProp.endsWith('Score')) { 
           if(Math.abs(metaVal) >= minCorrelation){
+            //When negative/postive values are toggled, tactics need to disapear, depending on their impact on the quality attribute 
+            if (!showPositive && metaVal > 0) return; 
+            if (!showNegative && metaVal < 0) return;
             relevantTactics.add(from);
           }
         }
