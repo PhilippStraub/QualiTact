@@ -173,7 +173,7 @@ export   const turtleStarData = `
 :Adversarial_training rdf:type :Tactic .
 :Contrastive_representation_learning rdf:type :Tactic .
 :Fault_tolerant_training rdf:type :Tactic .
-:Finetuning rdf:type :Tactic .
+:Finetuning_ rdf:type :Tactic .
 :Inclusion_of_wrong_labeled_data_in_training rdf:type :Tactic .
 :Incremental_training_with_sensor_data rdf:type :Tactic .
 :Label_smooting rdf:type :Tactic .
